@@ -142,7 +142,7 @@ details.more[open] summary{color:var(--ink)}
 <script src="logos.js"></script>
 <script>
 const LG = window.LOGOS || {};
-const W = 4320, H = 1840;
+const W = 4400, H = 1840;
 const SX = [1960, 2360, 2760, 3160, 3560];        // stage columns
 const ROW = [100, 370, 640, 910, 1180, 1450, 1720]; // rows of circles between the path lines
 const REACHX = 1440, PILLX = 1650, LINE_END = 3720, ENDX = 3960; // paths split at REACHX, run straight to LINE_END, then meet at ENDX
@@ -304,19 +304,19 @@ NODES.push({ id:"reach", type:"hub", label:"REACH OUT", title:"Reach out to peop
   kind:"Every path", tag:"Free · one message a day",
   text:"This is the step every path shares. People in AI safety love to help, and they want more people in the field. Find someone doing the work you want to do, whatever your field is, and ask them one specific question. Most will say yes to twenty minutes. One conversation often leads to an introduction, a project or a job you would never have seen posted.",
   do:"Message one person today. Three sentences: who you are, what you liked about their work, and one specific question." });
-// Where the paths meet again. Its three stops come after it in every path's step order (stage 10).
-const END = o => ({ lanes: ALL, st: Object.fromEntries(ALL.map(l => [l, 10])), parent: ["build"], ...o });
-T("build", ENDX, 910, "hub", "BUILD THE FIELD", { title:"Help build the field", lx:70, icon:"people", lanes:ALL, st:Object.fromEntries(ALL.map(l => [l, 9])),
+// Where the paths meet again. Its three stops fan out forward, like the paths do from "Reach out", and come after it in every path's step order (stage 10).
+const END = o => ({ lanes: ALL, st: Object.fromEntries(ALL.map(l => [l, 10])), parent: ["build"], lp: "r", fan: 1, ...o });
+T("build", ENDX, 910, "hub", "BUILD THE\nFIELD", { title:"Help build the field", icon:"people", lanes:ALL, st:Object.fromEntries(ALL.map(l => [l, 9])),
   kind:"Every path", tag:"Where every path ends",
   text:"Every path ends the same way: by leaving the field bigger and better than you found it. Go to events and meet people in person. Reach back out to the people starting where you started. And keep watching for problems nobody is working on yet, because the field changes as fast as the technology does.",
   do:"Pick one of the three this month: an event to go to, a newcomer to help, or a problem to write down." });
-T("events", ENDX + 170, 700, "sat", "Go to\nevents", END({ lp:"t", icon:"people", kind:"Every path", tag:"Conferences and meetups", url:"https://www.aisafety.com/events", link:"Open the events calendar",
+T("events", ENDX + 240, 700, "sat", "Go to\nevents", END({ icon:"people", kind:"Every path", tag:"Conferences and meetups", url:"https://www.aisafety.com/events", link:"Open the events calendar",
   text:"Whatever path you're on, people hire people they have met. AISafety.com keeps a calendar of conferences, workshops and meetups. EA Global has a large AI safety track and runs in San Francisco (19 to 21 March 2027), London (28 to 30 May 2027) and Washington DC (15 to 17 October 2027). ControlConf covers AI control research. One good conversation in person can do more than a month of applications.",
   do:"Pick one event in the next three months and apply or register today." }));
-T("giveback", ENDX + 250, 910, "sat", "Reach back\nout", END({ icon:"chat", kind:"Every path", tag:"An hour a month",
+T("giveback", ENDX + 240, 910, "sat", "Reach back\nout", END({ icon:"chat", kind:"Every path", tag:"An hour a month",
   text:"Someone answered your first message. Return the favour. Reply to the people who reach out to you, mentor a newcomer through a program such as SPAR, introduce people who should know each other, and write up how you got in so the next person has a map.",
   do:"Reply to every cold message you get this month, and offer one person twenty minutes." }));
-T("problems", ENDX + 170, 1120, "sat", "Find new\nproblems", END({ icon:"search", kind:"Every path", tag:"Ongoing", url:"https://coefficientgiving.org/tailwind", link:"See Project Tailwind's idea list",
+T("problems", ENDX + 240, 1120, "sat", "Find new\nproblems", END({ icon:"search", kind:"Every path", tag:"Ongoing", url:"https://coefficientgiving.org/tailwind", link:"See Project Tailwind's idea list",
   text:"AI keeps changing, and so do the problems. New capabilities open up risks nobody is working on yet, and people inside the field are usually the first to notice. Keep a running list of the gaps you see. Funders publish lists of the research and organisations they want to exist, and some of the field's most useful projects started as one person's note to self.",
   do:"Start a list today, and add one problem a month that you think nobody owns." }));
 
@@ -619,7 +619,7 @@ function draw() {
   // Advising, the job board and funding are for everyone, so they hang off the main line on their own stub, not on a line running between the student and mid-career hubs.
   e += `<path class="trunk l-trunk e" stroke-width="7" d="M${P("advising").x} ${P("advising").y}V${P("funding").y}"/>`;
   top += `<text class="stg ink ann l-trunk" x="${P("advising").x}" y="${P("advising").y - 50}">For everyone</text>`;
-  NODES.filter(n => n.type === "sat" && n.lp !== "r").forEach(n => n.parent.forEach(h => e += `<path class="trunk ${cls(n)} e" stroke-width="5" d="${vcurve(P(h), n.pos[0])}"/>`));
+  NODES.filter(n => n.type === "sat" && (n.lp !== "r" || n.fan)).forEach(n => n.parent.forEach(h => e += `<path class="trunk ${cls(n)} e" stroke-width="5" d="${(n.fan ? hcurve : vcurve)(P(h), n.pos[0])}"/>`));
   // paths
   LANES.forEach(l => {
     const c = `var(${l.color})`;
