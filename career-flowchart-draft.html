@@ -142,10 +142,10 @@ details.more[open] summary{color:var(--ink)}
 <script src="logos.js"></script>
 <script>
 const LG = window.LOGOS || {};
-const W = 4400, H = 1840;
-const SX = [1960, 2360, 2760, 3160, 3560];        // stage columns
+const W = 4520, H = 1840;
+const SX = [2080, 2480, 2880, 3280, 3680];        // stage columns
 const ROW = [100, 370, 640, 910, 1180, 1450, 1720]; // rows of circles between the path lines
-const REACHX = 1440, PILLX = 1650, LINE_END = 3720, ENDX = 3960; // paths split at REACHX, run straight to LINE_END, then meet at ENDX
+const REACHX = 1560, PILLX = 1770, LINE_END = 3840, ENDX = 4080; // paths split at REACHX, run straight to LINE_END, then meet at ENDX
 const ICON = {
   doc:"M7 3h7l4 4v14H7z M14 3v4h4 M10 12h5 M10 16h5", pencil:"M4 20l1-4L16 5l3 3L8 19z M14 7l3 3", chat:"M4 5h16v10H10l-4 4v-4H4z",
   people:"M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6 M16 5.5a3 3 0 0 1 0 5.5 M17 14.3c2.3.8 4 3 4 5.7",
@@ -284,18 +284,18 @@ T("translate", 1035, 1510, "sat", "Translate your\nexpertise", { icon:"repeat", 
 T("talk10", 1150, 1420, "sat", "10 chats before\n50 applications", { icon:"chat", parent:["mid"], kind:"Action", tag:"One message a day",
   text:"Hiring for senior roles in this field runs on relationships. Ten targeted conversations will teach you more than fifty cold applications, and one of them may lead to an introduction.",
   do:"Message one person who has the job you want and ask for 20 minutes." });
-// Shared by students and mid-career people: a column of stops between the two hubs.
-T("advising", 960, 795, "sat", "Career\nadvising", { logo:"80k", parent:["student","mid"], lp:"r", kind:"Advice", tag:"Free · 1:1 call · students and professionals", url:"https://80000hours.org/speak-with-us/", link:"Apply for a call",
+// For everyone, whichever branch they took: three stops fanned above "Pick a path", because they are what help you pick.
+T("advising", 1240, 700, "sat", "Career\nadvising", { logo:"80k", parent:["pick"], kind:"Advice", tag:"Free · 1:1 call · students and professionals", url:"https://80000hours.org/speak-with-us/", link:"Apply for a call",
   text:"80,000 Hours offers free one-on-one career advising to students and working professionals alike. Advisers point you to organisations, jobs and programs you didn't know existed, and often introduce you to people working there.",
   do:"Apply for a call today. The form takes about 20 minutes." });
-T("jobs", 960, 910, "sat", "Job board", { logo:"80k", parent:[], lp:"r", kind:"Jobs", tag:"Free · hundreds of roles", url:"https://jobs.80000hours.org", link:"Open the job board",
+T("jobs", 1350, 640, "sat", "Job board", { logo:"80k", parent:["pick"], kind:"Jobs", tag:"Free · hundreds of roles", url:"https://jobs.80000hours.org", link:"Open the job board",
   text:"The 80,000 Hours job board lists hundreds of open roles and internships across research, policy, operations and communications. Read it before you feel ready, to learn what employers actually ask for.",
   do:"Open three listings that sound like you. Write down the two requirements you don't meet yet." });
-T("funding", 960, 1025, "sat", "Transition\nfunding", { logo:"bluedot", parent:["student","mid"], lp:"r", kind:"Funding", tag:"$20k to $200k · rolling", url:"https://bluedot.org/grants/career-transition", link:"Open Career Transition Grants",
+T("funding", 1460, 700, "sat", "Transition\nfunding", { logo:"bluedot", parent:["pick"], kind:"Funding", tag:"$20k to $200k · rolling", url:"https://bluedot.org/grants/career-transition", link:"Open Career Transition Grants",
   text:"Money shouldn't be what stops you. In September 2026 Coefficient Giving handed its career development and transition funding to BlueDot. BlueDot's Career Transition Grants usually start at $20k and go up to $200k, for people ready to switch full-time: time to produce research or policy work, fill a skill gap or test a path. The application takes about 45 minutes and asks for recent work, milestones and a simple budget. For something smaller, Rapid Grants go up to $20k.",
   do:"Check BlueDot's grants page and note what you'd ask for and why." });
 
-T("pick", 1250, 910, "hub", "PICK A PATH", { icon:"compass", kind:"Step 2", tag:"Six paths", parent:["learn"], lx:15,
+T("pick", 1330, 910, "hub", "PICK A PATH", { icon:"compass", kind:"Step 2", tag:"Six paths", parent:["learn"],
   text:"Six paths, and most don't need a technical background. They overlap on purpose: a circle with several colours in its ring belongs to several paths, so you can start before you have fully decided. Every path starts the same way, by reaching out to people in your field, and ends the same way, by helping build the field. Your route probably won't be a straight line.",
   do:"Click a coloured path name to see the whole route and what it pays, then press Start this path." });
 
@@ -556,7 +556,7 @@ PEOPLE.forEach(p => p.ini = p.name.split(" ").map(w => w[0]).join(""));
 const PERSON = Object.fromEntries(PEOPLE.map(p => [p.id, p]));
 
 // Click-through order for each path, and for the trunk.
-const TRUNK_SEQ = ["start","stay","podcasts","watch","real","follow","news","buddy","learn","bd_intro","bd_agi","reading","fieldmap","advising","jobs","funding","student","campus","pathfinder","major","uni","mid","successif","hip","translate","talk10","pick","reach"];
+const TRUNK_SEQ = ["start","stay","podcasts","watch","real","follow","news","buddy","learn","bd_intro","bd_agi","reading","fieldmap","student","campus","pathfinder","major","uni","mid","successif","hip","translate","talk10","pick","advising","jobs","funding","reach"];
 const posFor = (n, l) => n.pos.find(p => p.lanes.includes(l)) || n.pos[0];
 const SEQ = { trunk: TRUNK_SEQ };
 LANES.forEach(l => SEQ[l.id] = NODES.filter(n => n.type !== "extra" && n.lanes.includes(l.id)).sort((a, b) => a.st[l.id] - b.st[l.id] || posFor(a, l.id).y - posFor(b, l.id).y || posFor(a, l.id).x - posFor(b, l.id).x).map(n => n.id));
@@ -614,11 +614,10 @@ function draw() {
   let e = "", top = "";
   const P = id => NODE[id].pos[0];
   // trunk
-  e += `<path class="trunk l-trunk e" stroke-width="16" d="M${["start", "stay", "learn", "pick", "reach"].map(i => P(i).x + " " + P(i).y).join("L")}"/>`;
+  // The main line breaks between "Learn the basics" and "Pick a path": there you go one of two ways, as a student or mid-career.
+  e += `<path class="trunk l-trunk e" stroke-width="16" d="M${["start", "stay", "learn"].map(i => P(i).x + " " + P(i).y).join("L")}M${P("pick").x} ${P("pick").y}L${P("reach").x} ${P("reach").y}"/>`;
   ["student", "mid"].forEach(i => e += `<path class="trunk l-trunk e" stroke-width="10" d="${hcurve(P("learn"), P(i))}"/><path class="trunk l-trunk e" stroke-width="10" d="${hcurve(P(i), P("pick"))}"/>`);
   // Advising, the job board and funding are for everyone, so they hang off the main line on their own stub, not on a line running between the student and mid-career hubs.
-  e += `<path class="trunk l-trunk e" stroke-width="7" d="M${P("advising").x} ${P("advising").y}V${P("funding").y}"/>`;
-  top += `<text class="stg ink ann l-trunk" x="${P("advising").x}" y="${P("advising").y - 50}">For everyone</text>`;
   NODES.filter(n => n.type === "sat" && (n.lp !== "r" || n.fan)).forEach(n => n.parent.forEach(h => e += `<path class="trunk ${cls(n)} e" stroke-width="5" d="${(n.fan ? hcurve : vcurve)(P(h), n.pos[0])}"/>`));
   // paths
   LANES.forEach(l => {
@@ -677,8 +676,8 @@ function backings() {
 /* ---------- view: the viewBox always matches the frame's shape, so pan and zoom are exact ---------- */
 const panel = document.getElementById("panel"), listwrap = document.getElementById("listwrap"), chips = document.getElementById("chips"), planbtn = document.getElementById("planbtn");
 const clampN = (v, a, b) => Math.max(a, Math.min(b, v));
-const REG = { all: { x: -30, y: -20, w: W + 60, h: H + 40 }, trunk: { x: 40, y: 250, w: 1500, h: 1370 } };
-LANES.forEach(l => REG[l.id] = { x: 1290, y: clampN(l.y - 335, 0, H - 670), w: ENDX + 60 - 1290, h: 670 });
+const REG = { all: { x: -30, y: -20, w: W + 60, h: H + 40 }, trunk: { x: 40, y: 250, w: 1620, h: 1370 } };
+LANES.forEach(l => REG[l.id] = { x: 1410, y: clampN(l.y - 335, 0, H - 670), w: ENDX + 60 - 1410, h: 670 });
 let vb = { x: 0, y: 0, w: W, h: H }, anim = 0, focus = "all";
 const size = () => ({ cw: wrap.clientWidth || 1200, ch: wrap.clientHeight || 700 });
 const padR = () => (!panel.hidden && innerWidth > 820) ? Math.min(panel.offsetWidth, size().cw * .6) : 0;
