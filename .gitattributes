@@ -1,0 +1,13 @@
+# Normalise line endings so Windows and Mac teammates see the same files.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.otf binary
+*.woff2 binary
+*.zip binary
+*.pdf binary
+*.mp3 binary
+*.mp4 binary
+*.wav binary
