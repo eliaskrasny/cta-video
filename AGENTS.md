@@ -1,4 +1,4 @@
-# AGENTS.md: working in the aisss-video repo
+# AGENTS.md: working in the cta-video repo
 
 This repo holds an explainer video's animation (`motion/`), the interactive career map website (`career-flowchart/`), the brand package (`branding/`) and the script (`notes/`). Several people and their coding agents work here at once.
 

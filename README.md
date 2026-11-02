@@ -1,4 +1,4 @@
-# AISSS video
+# CTA video
 
 Everything for the AI Safety Said Simply careers video, in one place: the animation, the interactive career map, the brand, and the script.
 
@@ -18,12 +18,12 @@ Big media (raw voice-over and music, reference clips, final renders) lives in th
 3. Clone the repo to a normal folder, **not inside OneDrive** (OneDrive can corrupt git folders):
    ```bash
    cd C:\dev            # or ~/dev on a Mac
-   git clone https://github.com/<owner>/aisss-video.git
-   cd aisss-video/motion
+   git clone https://github.com/eliaskrasny/cta-video.git
+   cd cta-video/motion
    npm ci
    npm run studio       # opens the animation preview in your browser
    ```
-4. Open the `aisss-video` folder in VS Code and start your agent there. It reads `AGENTS.md` automatically.
+4. Open the `cta-video` folder in VS Code and start your agent there. It reads `AGENTS.md` automatically.
 
 To see the career map, open `career-flowchart/index.html` in a browser.
 

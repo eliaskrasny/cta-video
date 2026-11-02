@@ -530,7 +530,7 @@ The brand PDF has no sound rules; these are EST starting points.
 
 | What | Where | Why |
 |---|---|---|
-| Rules, components, shots (code) | GitHub repo `aisss-video`, folder `motion/` | Exact values, history, review, one source of truth |
+| Rules, components, shots (code) | GitHub repo `cta-video`, folder `motion/` | Exact values, history, review, one source of truth |
 | The career map (website and its data) | Same repo, folder `career-flowchart/` | The video's career map is copied from it (§9.2) |
 | This guide, `AGENTS.md` | `motion/` | Changes with the code it describes |
 | Brand package | Same repo, folder `branding/` | Source of truth for the brand |
@@ -539,7 +539,7 @@ The brand PDF has no sound rules; these are EST starting points.
 | Script, research notes | Same repo, folder `notes/` | Everyone works from the same script |
 | Raw voice-over and music, reference clips, final renders | Shared OneDrive folder `cta/animation/` | Too big for git. Compressed voice-over and music that a render needs (MP3) go in `motion/public/audio/` |
 
-**Don't work inside OneDrive.** Clone the repo to a normal folder (for example `C:\dev\aisss-video` or `~/dev/aisss-video`). OneDrive syncing `node_modules` and `.git` is slow and can corrupt the repo, and Windows path-length limits stop Remotion's browser from starting in long paths.
+**Don't work inside OneDrive.** Clone the repo to a normal folder (for example `C:\dev\cta-video` or `~/dev/cta-video`). OneDrive syncing `node_modules` and `.git` is slow and can corrupt the repo, and Windows path-length limits stop Remotion's browser from starting in long paths.
 
 Shared OneDrive folder (big media only):
 

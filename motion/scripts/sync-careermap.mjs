@@ -1,6 +1,6 @@
 // npm run sync:careermap: copies the career map's data and logos from the career-flowchart project, the one place they're edited.
 // Run it after anyone changes the flowchart, then commit the copies so teammates don't need the flowchart folder.
-// Looks for ../career-flowchart (beside motion/ in the aisss-video repo); set CAREERMAP_DIR to point somewhere else.
+// Looks for ../career-flowchart (beside motion/ in the cta-video repo); set CAREERMAP_DIR to point somewhere else.
 import fs from "node:fs";
 import path from "node:path";
 

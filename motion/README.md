@@ -12,8 +12,8 @@ You need [Node.js](https://nodejs.org) 20 or newer and git.
 
 ```bash
 # clone OUTSIDE OneDrive, e.g. C:\dev or ~/dev
-git clone <repo url> aisss-video
-cd aisss-video/motion
+git clone <repo url> cta-video
+cd cta-video/motion
 npm ci
 npm run studio      # opens the preview in your browser
 ```
