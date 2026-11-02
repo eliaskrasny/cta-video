@@ -1,0 +1,93 @@
+“Drew Spartz posted YouTube videos almost nobody watched. Renn Karageorgieva worked in non-profit communications. Sneha Revanur was a fifteen-year-old activist. Today, all use their skills to work unexpected jobs in AI safety, and arguably do more to prevent AI catastrophes than most PhD AI researchers. In this video, we’ll show you the career paths they took, and how you can land the same jobs they did.
+A 2024 survey of 1,580 top AI researchers put the probability of AI causing human extinction at 10% (https://aiimpacts.org/wp-content/uploads/2026/09/ESPAI2024.pdf). Nobel Prize winner Geoffrey Hinton has urgently warned of an AI takeover. All this was before OpenAI agents escaped containment and started hacking another company.
+Despite this, only 0.5% of the AI industry is focused on AI safety. [ON-SCREEN SOURCE].
+You can change this. The safety field has grown 30x in the last decade, with philanthropists soon planning to inject billions of dollars into AI safety organizations. (80,000 Hours). With the field so small, every additional person makes a huge difference. Today, we’re mapping out this entire career flowchart, from six-figure operations roles to high-stakes policy. Most paths don’t require any technical background.
+We’ll meet each of these people along the way, and I’ll show you exactly how you can land where they are now.”
+Chapter 1: Getting started
+[VISUAL] Career map starts blurred out. The START node glows. Three nodes appear: LEARN THE BASICS → SEE WHAT JOBS EXIST → PICK A PATH
+“Most people stall before they start. ‘I’m not qualified,’ they worry. Don’t fall into this trap. Here’s what everyone should do first to get their foot in the door with no experience.”
+[VISUAL] Node 1 lights up: LEARN THE BASICS. On-screen: BlueDot, 80,000 Hours.
+“One: build context. You could take BlueDot’s free AI safety course, so you know the vocabulary and the big problems. Build a reading habit of about 30 minutes a day, using SPAR's reading list. Then get advice. 80,000 Hours offers free one-on-one career advising, and it can point you to organizations, jobs and programs you didn’t know existed. ”
+There are tonnes of courses, resources and job opportunities in AI safety, so this entire graph is simplified. For links to every AI safety resource and opportunity, we'd created an ultra-detailed flowchart. Link in the description!
+After getting started, where you go depends on where you are in life.”
+[VISUAL] The trunk forks into two nodes: STUDENT and MID-CAREER.
+V.O.: “Let’s start with the group that has the most time on its side.”
+Chapter 2: University students
+[VISUAL] STUDENT node highlights. YOU ARE HERE marker moves.
+"First, join an AI safety club for networking and to demonstrate AI safety context on your resume. After doing a BlueDot course, Bryan Sukidi did exactly that. If none exists, start one! There are several programs that will mentor you as you organize new groups, and some provide thousands of dollars of funding."
+“Then, get to work! If you’re a student, match your major to a small project to test your fit and beef up your resume.
+If you study computer science, find a professor or grad student to supervise a small technical AI safety project. If you study economics, write about how AI affects markets. If you study politics, analyze a real AI bill for your thesis. If you study journalism, blog on how your university is adopting AI.”
+[VISUAL] YOUR EXISTING MAJOR → AI SAFETY PROBLEM
+And use the advantages universities give you while you still have them: professors who will supervise you, research credits, student funding, free rooms, and classmates willing to build things for no money.”
+“Bryan did a research internship in computational biology to learn more about machine learning. We'll come back to him in a few minutes and find out how he landed an AI safety job right out of university!"
+V.O.: “But what if college is already behind you? If you're mid-career, that's actually even better!”
+Chapter 3: Mid-career
+[VISUAL] MID-CAREER node highlights. YOU ARE HERE marker moves.
+“Do not throw away your seniority. Identify what you're already an expert at. Securing systems, managing teams, hiring people, negotiating with governments, communicating technical ideas, or running large projects. Then, find where AI safety has that exact problem.”
+[VISUAL] WHAT ARE YOU ALREADY UNUSUALLY GOOD AT? ↓ WHO IN AI SAFETY HAS THAT PROBLEM?
+“Spend enough time learning the field that you can translate your existing expertise into its language.
+Then talk to people before blindly applying. Hiring for senior roles in this field runs on relationships, so ten targeted conversations may teach you more than fifty cold applications.”
+[VISUAL] Renn Karageorgieva. Label: CRISIS COMMUNICATIONS → AI RISK COMMUNICATIONS
+“Renn Karageorgieva did exactly this. She came from crisis communications. An adviser at 80,000 Hours helped her meet people at AI safety organizations and learn what employers wanted. One conversation led to an introduction to the chief of staff at SaferAI, who encouraged her to apply for a job she had missed. She got the role within weeks, and now works in communications there.
+[VISUAL] The two nodes, STUDENT and MID-CAREER, both send arrows into a widening map. Six branches appear: TECHNICAL — OPERATIONS — FOUNDERS — POLICY — OUTSIDE WORK — COMMUNICATIONS
+V.O.: “So what next? If you'd rather never write a line of code, we'll soon talk about neglected six-figure jobs AI safety organizations are desperately hiring for. But first, let's start with the most obvious AI safety job path, even if AI safety organizations aren't nearly as desperate to hire for them as other paths coming up.”
+Chapter 4: Technical people
+[VISUAL] TECHNICAL branch highlights.
+“Meet Dipika Khullar, an early career technical researcher. She took machine learning courses as part of her undergraduate degree. We also recommend BlueDot's technical course and ARENA as a solid introduction to technical AI safety. She joined a research project in a lab at her school. Then came two research programs, SPAR and then MATS, and now she’s an AI safety research fellow at Anthropic. She’s not an exception: major labs and research groups now hire full-time safety researchers. [SOURCE]
+If you want to follow this path, avoid the oversaturated areas, like mechanistic interpretability, and focus on neglected areas.
+AI security focuses on preventing bad actors or models themselves from slipping through AI guardrails.
+AI control focuses on supervising millions of potentially misbehaving AIs at once.
+Technical governance focuses on stuff like algorithms to inspect data centers to make sure they're not being used to train harmful AI, allowing for international AI safety coordination.
+Our full flowchart has a detailed list of internships and resources for each of these subfields.
+[VISUAL] COURSE → LAB PROJECT → SPAR → MATS → FELLOWSHIP/INTERNSHIPS
+Chapter 5: Operations and founders
+[VISUAL] OPERATIONS branch highlights. Cut to Renn. [B-ROLL]
+“Even more neglected than these paths, though, are non-technical roles like operations. Every research team, advocacy group and fellowship needs someone who makes it run: hiring, budgets, events, managing people, keeping the work on track. Many of these organizations are growing faster than they can find people to run them. [SOURCE] That’s why operations is one of the most open doors for people with no technical background, and why these roles can pay six figures. [SOURCE FOR SALARY RANGE]
+If you’ve ever been the person who keeps a project from falling apart, you already have the skill. This week, pick three organizations from the job board and read what they’re hiring for. Then message one person who has that job to set up a coffee chat.”
+If you have no previous operations experience, organize an AI safety group or one-off event in you community. Millions in micro-grants for funding are available from organizations like BlueDot.
+[VISUAL] FOUNDERS branch highlights. On-screen cards: GENERATOR, CATALYZE IMPACT, SELDON ACCELERATOR
+“If you’d rather build than join, this field needs founders too, and there are programs built to help you start. The Generator residency is one. Catalyze Impact is an incubator made specifically for new AI safety organizations, and it has helped launch around fifteen so far. [CONFIRM CURRENT NUMBER] Seldon runs an accelerator for AI safety startups. [OTHERS ON SCREEN: CONSTELLATION INCUBATOR, ENTREPRENEUR FIRST’S DEF/ACC]
+Bryan, the college student from earlier, did the Generator fellowship. Then Kairos, (one of the organizations backing us), hired him full time to building talent directories for the AI safety ecosystem. 
+V.O.: “Next, the branch where the rules for all of this get written.”
+Chapter 6: Policy and governance, including academics
+[VISUAL] World map. Pins drop on DC, Sacramento, London, Brussels. Label: WHERE THE RULES ARE BEING WRITTEN. Cut to a desk with a nameplate and an empty chair. Label: NOBODY AT THIS DESK.
+“You don’t need to code to work on AI policy, and you don’t need to live in DC.
+First, learn some AI governance background. BlueDot's AI Governance course is a fast way to get up to speed.
+The rules for the most powerful AI systems are being written right now, and the people writing them are short on colleagues who understand both how government works and what the technology can do. Governments are already building institutions for this, like the UK AI Security Institute and the EU AI Office, so it’s a real career, not a niche. [SOURCE]”
+[VISUAL] Four desks, each with an empty chair, labelled one at a time.
+“Look at what’s sitting unfilled. Who writes the rule that says a company is responsible if its AI causes serious damage? Who sets standards for whether AI is safe to release? Who figures out how countries could check each other’s AI work, the way inspectors check nuclear sites?
+Don’t be a generic ‘AI governance person.’ Pick one tool, like export controls, liability, or safety standards, and get good at it."
+[VISUAL] READ ONE REAL LAW → PICK ONE TOOL → WRITE ONE MEMO → FELLOWSHIP → JOB
+“Here’s the best part: fellowships in this space can pay from $78,000 to over $190,000 a year. [SOURCE] Start by reading real AI law and lab safety policy. Take BlueDot’s free AI Governance course. Then write a short policy memo and publish it, because real work beats credentials here.
+Next, apply to a fellowship. Horizon places people in Congress, federal agencies and think tanks, and GovAI runs funded three-month programs. [FULL LIST ON SCREEN AND IN DESCRIPTION: IAPS, TALOS, CSET, RAND, UK AI SECURITY INSTITUTE, EU AI OFFICE]”
+[VISUAL] Venn diagram: YOUR FIELD overlapping AI SAFETY. Labels cycle: LAW, ECONOMICS, POLITICAL SCIENCE, PHILOSOPHY.
+“And if you’re already a policy-adjacent researcher, you don’t have to leave your field. Take Gillian Hadfield, John Hopkins professor. She built her career as an economist and a legal scholar. Today she runs the Normativity Lab, working on international AI safety coordination and AI law. Instead of leaving her field, she brought the AI question into it.
+Then take one concrete first step. Apply for a small grant, join a workshop, or co-author a paper with someone already in the field.”
+V.O.: “But writing the rules is only half the job. Someone has to push lawmakers to pass them. And you can help with that, whatever your job is.”
+Chapter 7: Making an impact outside of work
+[VISUAL] The YOU ARE HERE marker slides off the POLICY branch onto a connected side branch: OUTSIDE WORK.
+“Not everyone wants to change jobs to work on AI safety. Can you make an impact outside of work? Absolutely.”
+[VISUAL] Photo of Sneha Revanur. Timeline: AGE 15 → PROP 25 → ENCODE → STATE AI SAFETY LAWS
+“Sneha Revanur is proof. At fifteen, she organized other students against a California ballot measure, Prop 25, that would have replaced cash bail with an AI risk score. Voters rejected it. Her group of about 20 ragtag students protesting and posting social media petitions grew into Encode, which has helped push for state AI safety laws like California’s SB 53. 
+Talk to your representatives directly. Book an in-district constituent chat. Walk in with two clear asks: make the biggest AI projects tell the government what they’re building, and make a company legally responsible if its AI causes serious damage. Check out PauseAI (pauseai.info). They have free letter and meeting builders designed to walk you step-by-step through.
+Run community tables or attend peaceful demonstrations. Microgrants can cover print materials and banners.
+There’s a lot more you can do: running a local group, tabling, protests and more. Americans for Responsible Innovation (ari.us), PauseAI and Encode all have guides. These groups don’t always agree with each other, so pick the one that matches what you believe.”
+V.O.: “One more branch. We saved it for last because it might be the most accessible way to change where this technology goes. And yes, I’m about to tell you to become a content creator. I know. Hear me out.”
+Chapter 8: Journalists, writers and content creators
+[VISUAL] COMMUNICATIONS branch highlights. Slop AI hype videos (“10 Tools That Will Make You Rich Overnight!”).
+“Right now, almost all AI media is trapped in two camps: slop-hype, or generic Hollywood sci-fi panic.
+The engineers building these models understand the math, but many struggle to explain risk to normal people and lawmakers. Few people are translating what is happening at top AI labs and what regulators should do about it on various platforms.”
+[VISUAL] Cards slide across screen: YouTube (video essays, visual deep-dives), Substack (policy analysis), X / Threads (real-time commentary), Short-form (60-second breakdowns).
+“Video essays on YouTube. In-depth Substack teardowns. Viral X threads. And the most neglected one, short-form video. A clean 60-second breakdown of a new AI safety test can reach hundreds of thousands of people who will never read a newspaper in their lives. [SOURCE OR EXAMPLE]”
+[VISUAL] Drew Spartz and his channel, [CHANNEL NAME]. Side by side: his first video, with a tiny view count, and a recent one with millions of views. [CONFIRM WHICH VIDEO AND THE VIEW COUNT]
+“Drew Spartz is the reminder that nobody starts good. He runs [CHANNEL NAME], one of the most successful AI safety channels on YouTube. His first videos were rough and barely got any views. He kept learning from his mistakes and improving his content, and now his videos reach millions.”
+[VISUAL] Three tiers slide in: INDEPENDENT CREATORS: Starter Toolkit and Resource Hub / IN-HOUSE MEDIA TEAMS: Epoch AI / INSTITUTIONAL FELLOWSHIPS: Tarbell and Frame
+“If you want to start right now from your bedroom, check out some existing successful AI safety content, then make and post a sixty second video. If you’ve already made some content and want to sharpen your skills under the mentorship of an experienced AI safety creator, check out the Frame Fellowship.
+If you love making content but don’t want to play algorithm roulette on your own, you can get hired. Orgs like Epoch AI have hired writers, editors and social video producers to turn dense technical forecasting into content everyday people want to watch. Frame also has a track for communications at safety research organizations.
+And if you’re already on the route into major newsrooms, the Tarbell Fellowship places fellows in newsrooms to report on advanced AI. 
+Closing: the full map
+[VISUAL] Whole flowchart fully revealed, every branch lit. The faces of Bryan, Renn, Sneha, Dipika and Drew appear on their branches.
+“So that’s the whole map. Bryan took a course and joined a residency. Renn had a conversation. Sneha picked a problem. Dipika joined a lab project. Drew kept posting until the videos worked. Different branches, same move: they started before they felt ready, and none of them was too small to matter.
+You don’t need to figure out the whole path today, and your AI safety career path will probably not be a straight line. All of the people we've discussed faced rejection, but by assessing all the options available, all found awesome AI safety jobs.
+In the next 24 hours, if you do one thing, apply to BlueDot's free AGI Strategy course to get started on your path.
+The talent gap in AI safety is huge. There are desks with nobody at them, and the people who fill them won’t be the ones who waited. Maybe it’s you.”

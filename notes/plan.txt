@@ -1,0 +1,908 @@
+Call to Action
+1. Choose the audience, topic, and hook
+Audiences + audience knowledge, goals, concerns, and likely misconceptions:
+University students 
+Knowledge: Likely use AI tools for school or for project, may have heard about ai safety or learned about risks through campus events or recently through social media 
+Goals: A meaningful career, internships, clear next steps, community
+Concerns: Not being qualified yet, picking the wrong path, AI impacting their ability to find a job
+Misconceptions: That you need to be very qualified to try to start a career in AI safety, that you can’t have an impact until you graduate, that there are not many stable career paths in ai safety
+Notes: Depending on the field of study some of the contents of this section might differ and they will need different information, but the later pathway sections (technical, policy, ops, etc.) apply to students in those fields too. This section focuses only on what's unique to being a student.
+Technical people 
+Knowledge: Understand to certain extent how models work
+Goals: Interested in technical problems, good pay, credibility, and work that matters
+Concerns: A pay cut, whether working in technical safety speeds up capabilities
+Misconceptions: That the only option is working at a frontier lab, that they’ll need lots of retraining, 
+Notes: Overlaps with technical students so they can share pathways. Important to mention pathways that are not labs
+Policy and governance people 
+Knowledge: Know how legislation, regulation, and institutions work but may have little technical understanding of AI
+Goals: Influence real decisions, advance their careers, work on big issues
+Concerns: Lacking technical credibility, AI safety and regulation being a fad, and not knowing what organizations exist and which are serious
+Misconceptions: That AI policy is working on privacy, bias, or copyright. That you need to code. That it’s too early to matter, that governance work only happens in DC
+Notes: technical literacy helps and can be built quickly though existing courses, fellowships, and reading groups
+Non technical or policy mid-career professionals
+Knowledge: They have deep expertise in their own field and follow AI news casually. They're worried but not connected to the community.
+Goals: Use the skills they've built over years, find meaningful work, and avoid starting from scratch.
+Concerns: Losing seniority or pay, feeling too old, and whether the field will take them seriously.
+Misconceptions: That AI safety only needs researchers. That the field only hires young people. That they'd have to go back to school. That their expertise doesn't transfer, when infosec, comms, and management are frequently cited as needs.
+Notes:
+Operations
+Knowledge: They know how to run things like hiring, finance, events, and project management, but probably don't see ops as "AI safety work."
+Goals: Impact through enabling others, stability, and growth into leadership roles.
+Concerns: Being seen as support staff rather than core, whether small organizations are stable, and unclear career growth.
+Misconceptions: That ops is less impactful than research in AI safety when in reality, many organizations say ops and management are a bottleneck. Another misconception is that you need to understand the technical details deeply to do the job well.
+Notes: 
+Concerned general public
+Knowledge: Their understanding comes from headlines, movies, and social media. They feel either anxious or dismissive.
+Goals: Feel less helpless, understand what's actually going on, and do something.
+Concerns: That nothing they do matters, being overwhelmed by doom, and not knowing whom to trust.
+Misconceptions: That it's either all fine or all hopeless. That only tech people can help. That individual actions like calling representatives, voting, or donating don't matter. That AI risk just means job loss or deepfakes.
+Notes:
+Founders and entrepreneurs 
+Knowledge: They know how to build organizations and products from scratch, but may see AI safety as purely academic or nonprofit research.
+Goals: Build something new, have impact, find success, and own a problem.
+Concerns: Whether there's a viable market or funding model, and whether nonprofit work fits their skills.
+Misconceptions: That AI safety has no room for startups or new orgs. That all the important organizations already exist. That founding only means for-profit companies.
+Notes: AI Safety Undervalues Founders. Possible examples include new evals orgs, field-building groups, and safety tooling. 
+Journalists, writers, and content creators 
+Knowledge: They know how to explain things to audiences and may already cover tech, but often lack depth on AI risk.
+Goals: Tell important stories, build an audience, and gain credibility on a growing beat.
+Concerns: Being seen as alarmist, lacking technical expertise, and whether there's a sustainable career covering this.
+Misconceptions: That covering AI means product launches and hype. That you need a technical background to report on AI risk. That AI safety has nothing to do with communications.
+Notes: Tarbell is a direct example. 
+Academics outside CS(econ, bio…)
+Knowledge: They have deep expertise in their discipline and research skills, but may not see how it connects to AI.
+Goals: Do research that matters, get funding and publications, and stay in their field.
+Concerns: Leaving their discipline, whether AI work counts in their field's career track, and lacking ML knowledge.
+Misconceptions: That they'd have to switch to CS or policy work. That their field has nothing to contribute. Examples of relevant work include economics of AI, biosecurity, nuclear-style arms control analogies, AI law, and philosophy of alignment.
+Notes: Overlaps with non-CS students, so both can share the "apply your field" pathway.
+Topic / central question:
+If you’re worried about AI, what can you do, from simple steps to building a career doing work that matters?
+Hook:
+“So you are scared about AI! What can you do, from simple steps to building a career doing work that matters?"
+Unsolicited hook idea from Calvin: Something like… “James is an influencer. Tara is an operations manager. Morgan translates Chinese legal documents. They’re all among the most impactful people in the world working on preventing catastrophic AI risks. Here’s how…” Lean into the ‘lots of weird and unexpected AI safety jobs’ hook. Maybe choose some more exciting sounding jobs though lol
+2. Build a common research base
+General
+A review of all available info of AI safety talent needs:
+Talent Constraints in AI Safety: What We Know and What We Don’t
+What 3,654 Job Postings Tell Us About Talent Needs in AI Safety (Żurek)
+What 38 AI Safety Hiring Managers Told Us They're Looking For (80,000 Hours; substack mirror)
+The current bottleneck is political will, not research 
+AI Safety's Biggest Talent Gap Isn't Researchers. It's Generalists (Kairos/Constellation)
+The Current Bottleneck Is Political Will, Not Research
+
+Stats for landing jobs/career progression after fellowships/internships
+Very limited, see https://forum.effectivealtruism.org/posts/S5yBGo4fnqm2zKMKj/do-ai-safety-talent-programmes-work-nobody-has-run-the-study
+
+A spreadsheet full of claimed results stats from people who completed certain fellowships: https://docs.google.com/spreadsheets/d/1lLMJjsilZ5UTCnFGIHISj9ckuyz6GQS3MABzPsg7k2A/edit?gid=891147327#gid=891147327
+
+Overview Resources
+AISafety.com field map
+AI safety taxonomy map (unfinished)
+11 Essential Resources for Getting Up to Speed on the Risks of AGI (80,000 Hours)
+
+Early Career & Campus Field-Building
+Guides & Articles
+Probably Kairos Pathfinder has the best guides out there, but below is a big dump of other articles I found
+Building the Field of AI Safety (80,000 Hours)
+AI Safety University Organizing: Early Takeaways from Thirteen Groups (Agustín Covarrubias)
+Branding AI Safety Groups: A Field Guide (Agustín Covarrubias)
+AI Safety Groups Should Imitate Career Development Clubs (Joshc)
+Penn EA Residency Takeaways & Succession Mechanics (Penn organizing team)
+Community Building Lessons from Ten Years of Facilitation (EA Facilitation Network)
+Update on Harvard AI Safety Team and MIT AI Alignment (Xander Davies, Sam Marks, et al.
+Reflections on Building an AI Policy Student Group from Scratch (Liam Robins)
+College Technical AI Safety Hackathon Retrospective: Georgia Tech (AI ATL team)
+Doing research as an undergrad
+Roadmap through AI safety programs for early-career technical researchers
+Effective Thesis
+Fellowships & Opportunities
+Pathfinder Fellowship (Kairos/Field Support Initiative)
+AI Safety Seeding Initiative (AISSI) (helps start groups where there isn't one yet, then hands people to Pathfinder)
+Kairos (fieldbuilding org; Pathfinder + organizer support)
+AI Safety Camp (AISC)
+Stanford Existential Risks Initiative (SERI) Summer Fellowship
+PIBBSS Summer Research Fellowship (alt listing: aisecurityandsafety.org grant page)
+Alignment Research Fellowship (ARF) (AI Safety Global Society)
+Unexpected/caveat info
+you dont have to be at Ivy/Stanford/Oxbridge; publics and GW/Georgia Tech type places can be less saturated (13 groups takeaways, Germany talent)
+at-home readings fail mid-semester; use in-session printouts (13 groups)
+in-house undergrad research fails without a senior PhD mentor (13 groups)
+standalone safety hackathons miss people outside the bubble; embed tracks in big campus hackathons (Georgia Tech retrospective)
+capabilities externality if you upskill with no safety screen; two-tier intro gate (13 groups, Joshc)
+EA co-branding can silently drive people off (branding field guide)
+leadership succession cliff/single-organizer burnout (Penn residency)
+
+Mid-career professionals
+Career Guides & Advice
+How to get into AI safety in three months | 80,000 Hours
+Why Experienced Professionals Fail to Land High-Impact Roles (FBB #5) (context deficit, closed-network hiring)
+AI Safety Needs Mid-Career On-Ramps (transition grants, headhunting, part-time bridges vs low-stipend residencies)
+To the Bat Mobile!! My Mid-Career Transition into AI Safety (practitioner transition narrative)
+From Comfort Zone to Frontiers of Impact: Pursuing a Late-Career Shift to Existential Risk Reduction (late-career pivot framing)
+On-Ramps for Mid-Career Non-Anglophone Entrants to AI Safety
+Experience of a 'Generalist' Transitioning into AI Safety in 2026 (Emily Marais)
+Fellowships & Opportunities
+Announcing the MATS Residency: A New Path for Experienced Researchers (6-24 month funded runway; org listing under Technical Research)
+High Impact Professionals Impact Accelerator (6-week virtual transition consulting)
+Successif Career Advising (1-on-1 placement for senior operators)
+Talos Policy Leaders Programme (European policy placement accelerator)
+Announcing Lateral Workshop for Experienced Professionals (mid-career lateral onboarding)
+Unexpected/caveat info
+elite corporate credentials dont substitute for movement fluency; "context deficit" is the main senior failure mode (why experienced professionals fail)
+roughly 30-50% of paid roles and 80%+ of senior hires fill via closed networks, not public boards (same post)
+"bottlenecked on generalists" overpromises: orgs want elite, high-context operators, not generic admin (why experienced professionals fail; see also Generalists section for Emily Marais 2026 writeup)
+
+Generalists, Operations & Founders
+Career Guides & Advice
+Operations in AI Safety: A One-Year Perspective and Advice (anonymous organizer)
+The Case for AI Safety Capacity-Building Work (Asya Bergal)
+A Generalist Thinks in Terms of Problems, Not Job Descriptions (Roman Ross)
+AI Safety Undervalues Founders (Ryan Kidd)
+Scaling Organisations Making AI Go Well (80,000 Hours hiring-manager review)
+General Overview, Introduction, Specific Projects
+A Reading List for Generalists (Dylan Bowman)
+Concrete Generalist Projects in AI Safety (and How to Do Them) (Tran, Ross, Waterman, Gilbert)
+List of Lists of Project Ideas in AI Safety
+What 27 AI Safety Generalists Are Building This Summer (Kairos/Constellation; Talent Commons project writeup)
+How cybernetics connects computing, counterculture, and design (Dubberly)
+Fellowships & Opportunities
+Generator Residency (Kairos/Constellation)
+Supervised Program for Alignment Research (SPAR) (generalist megastream + security/policy projects; see also generalist megastream project page)
+Mangrove
+Halcyon Futures
+Constellation Incubator
+Constellation Institute
+Presidential Innovation Fellowship (PIF) ?
+AI Safety Quest (navigation calls)
+Unexpected/caveat info
+biggest gap is operators not researchers (Kairos/Constellation talent gap post)
+80k survey: BlueDot or 1-3 years can be enough context except hardcore technical research; you dont need 10+ years (hiring managers survey)
+hiring managers struggle to evaluate senior non-research talent; fellowship hopping is a leak (New talent, talent pipelines)
+non-anglophone mid-career blocked by unpaid forum-essay signaling (on-ramps post)
+founders undervalued vs writers (founders essay)
+political will bottleneck, not pure research (LessWrong post)
+talent programme impact is under-studied (Do talent programmes work)
+
+Technical Research (Mechanistic Interpretability, Evaluations, Engineering)
+Didn't spend time building this path out; assume people know the classic research track. Let me know if you want me to do specific research
+
+Technical AI Governance & Compute Verification
+Career Guides & Advice
+Recommendations for People Getting into Technical AI Governance (LessWrong)
+Recommendations for People Getting into Technical AI Governance Research (MIRI TGT)
+Techies Wanted: How STEM Backgrounds Can Advance Safe AI Policy
+Position: Technical Research and Talent Is Needed for Effective AI Governance (Reuel, Soder, Bucknall, Undheim; ICML proceedings)
+How to pursue a career in AI governance and coordination
+Technical governance career review (80,000 Hours)
+The case for taking your technical expertise to the field of AI policy (80,000 Hours)
+AI hardware career review (80,000 Hours)
+What does it mean to become an expert in AI Hardware?
+MIRI Technical Governance Team research hub
+Some (Occasionally Conflicting) Research Advice from MIRI TGT
+How to Do Research Reading List (MIRI TGT)
+General Overview & Introduction
+Open Problems in Technical AI Governance (Reuel et al.; open problem database)
+Computing Power and the Governance of Artificial Intelligence (GovAI; arxiv)
+Medium-Level Technical AI Governance Reading List (MIRI TGT)
+Frontier AI Governance Course (BlueDot)
+Compute Governance Literature Review
+The Role of Compute Thresholds for AI Governance
+How To Make International AI Verification a Reality (Future Society)
+Lennart Heim on compute governance (80,000 Hours podcast)
+Workshop on Technical AI Governance (TAIGR) (ICML)
+Fellowships & Opportunities (not all specifically technical governance)
+GovAI Seasonal Fellowship & research roles (Oxford/London & Washington DC)
+IAPS AI Policy Fellowship (compute policy track)
+Cambridge ERA:AI Fellowship (technical AI governance stream)
+Frontier AI Security Residency (FASR) (Cambridge ERA)
+Technical AI Governance (TAIG) DPhil Studentships (Oxford AIGI)
+Constellation Astra Fellowship/METR-related residencies (strategy & empirical streams)
+Apart Research Technical AI Governance Challenge
+Apart Fellowship
+Navigating Transformative AI/Open Philanthropy governance grants
+Institute for AI Policy and Strategy (IAPS)
+Centre for the Governance of AI (GovAI)
+Center for a New American Security (CNAS)
+RAND Corporation
+The Future Society
+UK AI Security Institute
+US AI Safety Institute (NIST)
+Epoch AI
+Unexpected/caveat info
+you don't need a policy or law degree; STEM shortage is the gap (Techies Wanted)
+compute governance window may close as efficiency improves (GovAI compute report, Heim podcast)
+
+Non-technical AI Governance
+Career Guides & Advice
+FAQs and General Advice on AI Policy Careers (Miles Brundage)
+Many AI Policy Careers Won't Matter. Here's How to Find One That Will. (80,000 Hours)
+How to Get Into AI Policy (part 1) (B Cavello; part 2, part 3, part 4, part 5)
+The US AI Policy Landscape: Where to Have the Biggest Impact (80,000 Hours)
+Policy career resources (Emerging Technology Policy Careers / Horizon Institute guide)
+Pathways (Emerging Technology Policy Careers)
+Working in US AI Policy (80,000 Hours)
+Want to Upskill in AI Policy? Here Are 57 Useful Resources (80,000 Hours)
+Online Career Resources (Horizon Institute for Public Service)
+How to Succeed as an Early-Stage Researcher: The Lean Startup Approach (GovAI researchers; EA Forum)
+B Cavello (AI policy) (Emerging Technology Policy Careers)
+What Lawyers Can Do for AI Safety
+Fellowships & Opportunities
+See AISafety.com, they’ve already put together a very good list
+Unexpected/caveat info
+you dont need a CS PhD or a multi-year poli sci PhD for most non-technical governance paths; MPP/MPA-style programs and fellowships often beat long academic lock-in (many careers post)
+candidates over-weight formal credentials and self-select out; short policy memos and applying to open roles anyway matter more (Brundage FAQs)
+"AI policy" is an overlay on trade, admin law, labor, IP etc.; undifferentiated interest signals low institutional awareness (Cavello part 1)
+founding a new org early often burns capital on overhead vs joining existing pipelines (Cavello part 4)
+governments need drafters and implementers more than another principles paper (see Communications for the US government career review)
+entry market feels tight while employers still complain about missing specialist skills (see job market EA Forum post above)
+anchor your profile in one instrument (export controls, APA rulemaking, grid interconnection) not generic "AI governance researcher" (many careers post)
+policy impact arrives in narrow windows; generalist bureaucratic literacy often beats narrow x-risk theory early (many careers post)
+left-coded / existential-only framing can kill bipartisan durability; national security and infrastructure angles travel better (US landscape article, short timelines campus strategy)
+hot takes and messy public social media can permanently block congressional staff and clearance paths (One Year in DC)
+US EOP/DoD/BIS-style roles usually require US citizenship and clearance eligibility; non-citizens should target EU AI Act implementation, UK AISI-adjacent work, or Geneva multilateral hubs (ETPC pathways)
+scout mindset (nuance) vs soldier mindset (message discipline) both show up; long-form advocacy dynamics and the 80k advocacy career review sit under Communications only
+
+Information Security & Cybersecurity
+Career Guides & Advice
+AI security career review (80,000 Hours)
+Information Security Careers for GCR Reduction (Claire Zabel & Luke Muehlhauser)
+General Overview & Introduction
+15 Expert Takes on Infosec in the Age of AI (80,000 Hours)
+Information Security Considerations for AI and the Long Term Future (Jeffrey Ladish & Lennart Heim; Heim blog mirror)
+AI Safety and the Security Mindset (LessWrong sequence)
+Upskilling, Bridge-Building & Research on Security & Cryptography for AI Safety (LessWrong sequence)
+Technical AI Safety Course (BlueDot)
+We Read Every Lab's Safety Plan So You Don't Have To: 2025 Edition
+Securing AI Model Weights: Q&A with Sella Nevo (RAND)
+Security Forecast (AI 2027)
+Can the US Prevent AGI from Being Stolen?
+AI Companies Are Not on Track to Secure Model Weights (Jeffrey Ladish)
+Securing AI Model Weights: Preventing Theft and Misuse of Frontier Models (RAND)
+Existential Cybersecurity Risks & AI: A Research Agenda
+AI, Cybersecurity, and Malware: A Shallow Report
+Fellowships & Opportunities (not all security-specific)
+Heron Research Fellowship
+Redwood Research
+Palisade Research
+Seldon Lab
+Apollo Research/Watcher
+FAR.AI
+UK AI Security Institute (UK AISI)
+US Center for AI Standards and Innovation (CAISI)
+RAND Center on AI, Security, and Technology (CAST)
+Center for Security and Emerging Technology (CSET)
+Security Level 5 (SL5)/SL5 standard
+Asymmetric Security
+ControlConf (Redwood & FAR.AI)
+AI Security Forum
+Formal Methods × AI (FMxAI)
+Unexpected/caveat info
+you don't need an ML PhD; labs prefer teaching ML to a security person over teaching security mindset to an ML researcher (80k AI security review)
+mentorship is thin at small safety orgs (80k AI security review)
+prompt filters and surface defenses go stale fast (80k AI security review)
+bug bounties are a bad main path (critique post)
+cultural clash: enterprise security thinks ransomware, safety thinks catastrophe (80k AI security review)
+weight theft is tractable ops work but neglected (Ladish weights post)
+open-source portfolio beats certs for hiring (80k AI security review)
+
+Economics of AI Safety
+Career Guides & Advice
+How Can Economists Have an Impact on the Risks of Transformative AI? (Slattery et al.)
+Alignment Problems for Economists
+An Economist's Perspective on AI Safety
+Guide to Working in AI Policy and Strategy (80,000 Hours)
+Economics PhDs: Career Review (80,000 Hours)
+The Value of Economics PhDs: A Conversation with Robin Hanson
+General Overview & Introduction
+The Economics of Transformative AI (Stanford summer course) (Stanford DEL)
+The Economics of Transformative AI (NBER volume)
+The Economics of AI (Coursera/Anton Korinek) (GovAI course announcement)
+Economics of Transformative AI Fellowship (UChicago AI Safety)
+Economics of Transformative AI Course (BlueDot)
+The Economics of Ideas Syllabus (Institute for Progress)
+Cooperative AI Foundation (summer school & workshops)
+Volume 2: The Economics of Transformative AI (Digitalist Papers)
+Fellowships & Opportunities
+Stripe Economics of AI Fellowship
+Forethought Foundation
+CLTR Summer Research Fellowship
+PIBBSS Fellowship
+Future of Life AI Governance Fellowships
+Project Tailwind/Transformative AI capacity grants (Coefficient Giving; Tailwind podcast)
+Epoch AI
+RAND/CSET (policy fellowships)
+UK AI Safety Institute/US AISI
+Center on Long-Term Risk (CLTR)
+Center for Human-Compatible AI (CHAI)
+Oxford Global Priorities Institute
+Unexpected/caveat info
+you dont need an econ PhD for GovAI/RAND/CSET/AISI/lab policy; PhD still matters for tenure and the Fed (should you do an econ phd)
+terminal US masters is weaker than a paid predoc (same post)
+top journals can't do x-risk empirical stuff; people pivot to micro/contract theory (same post)
+senior supervisors are the bottleneck not money (talent needs 2026)
+models go stale when architectures change (economists impact post)
+
+Communications, Political Advocacy & Movement Building
+Career Guides & Advice
+Public communication career review (80,000 Hours)
+Journalism career review (80,000 Hours)
+Probably Good: Communications career profile
+Stop Applying and Get to Work (build legible comms projects vs application spam)
+General Overview & Introduction
+Why AI Safety Is Losing the Communications War (Eugene Yiga)
+Messages, Frames, and Messengers: What Might a Climate Outreach for AI Look Like?
+We Need to Massively Scale AI Safety Communications for the General Public, Now
+Public communication on AI safety (EA Forum topic hub)
+Advanced & Specific Resources (Maybe also relevant for our own communications)
+Which Audience Is Most Neglected in AI Safety Communications?
+From Catastrophic to Concrete: Reframing AI Risk Communication (CFG/Seismic/Blue State)
+ommunicating the Social Implications of AI (FrameWorks Institute strategic framing toolkit)
+Views of Risks, Opportunities, and Regulation of AI (Pew Research Center)
+What 81,000 People Want from AI (Anthropic public attitudes)
+Social Change Lab (Giving What We Can profile)
+SB 1047: Our Side of the Story (Scott Alexander; legislative margins vs veto)
+SB-1047 Documentary: The Post-Mortem (Michaël Trazzi)
+Things I Learned Making the SB-1047 Documentary
+Fellowships & Opportunities
+Frame Fellowship (EA Forum cohort writeup)
+Tarbell Fellowship (Tarbell Center)
+Nonprofit and Public Interest Fellowship (Aspen Tech Policy Hub)
+Unexpected/caveat info
+existential framing tested worse than mundane harms (messages/frames post, Anthropic 81k, CFG reframing)
+academic persuasion is not how SB1047 was lost (SB-1047 postmortem)
+public opinion doesnt automatically move legislation (which audience post)
+CAIS extinction statement polled well but respondents' typical likelihood estimate stayed near 1% (Rethink CAIS perception)
+calendar-anchored viral forecasts invite credibility attacks when timelines slip (communications war post)
+
+Political Advocacy & Movement Building (outside of unis)
+AI safety advocacy career review (80,000 Hours)
+Existential AI Safety Needs an Effective Social Movement (PauseAI)
+Overview: AI Safety Outreach Grassroots Orgs
+One Year of PauseAI UK (protests, MP letter, tabling playbook)
+The Myth of AI "Warning Shots" as Cavalry (why crises need pre-built narratives)
+Nationwide Action Workshop: Contact Congress about AI Safety (structured constituent outreach event template)
+Third-Wave AI Safety Needs Sociopolitical Thinking
+What Makes a Protest Movement Successful? 
+Possible Mistake EAs Are Making and Shout Out to Pause AI UK (constituent meetings, email builders, representative briefings)
+Day-to-day levers
+I am personally pretty unfamiliar with what AI safety political boots-on-ground advocacy actually looks like, so instead of a link dump I’ve structured this section as a list of concrete things one can do, with the source linked.
+Constituent legislative outreach. Schedule in-district or virtual lawmaker meetings with specific statutory asks (compute thresholds, liability, whistleblower protections) using advocacy-group letter/meeting builders. Source: PauseAI UK constituent writeup
+Public commenting on regulatory rulemakings. File individualized comments during federal/state notice-and-comment windows (Commerce, NIST, FTC, AG offices) tying safety claims to administrative-law reasoning. Source: catastrophe prevention/governance spend
+Local grassroots mobilization & tabling. Run campus/community tables, peaceful demonstrations, and education drops; microgrants can cover print/banners. Source: One Year of PauseAI UK
+Sub-national & municipal AI policy engagement. Show up to city council, school board, or local tech task forces to push bounded procurement, transparency, and cautious automation in critical services. Source: How to get into AI policy (part 4)
+Public discourse reframing & content synthesis. Write op-eds/newsletters linking mundane harms (deepfakes, scams, labor shocks) to structural control risks and summarize dense evals for journalists. Source: Stop chasing views
+Study circles & local group facilitation. Co-run BlueDot/AGISF-style cohorts to onboard lawyers, engineers, and mid-career professionals into safety literacy. Source: 57 AI policy upskilling resources
+Caveats and other interesting points 
+Staff often read one engaged constituent as standing in for hundreds of silent voters, so sparse but prepared local meetings punch above their headcount (same post).
+Dont wait for an AI "warning shot" to do the persuasion; without prior public framing, crises get misattributed or normalized instead of triggering safety rules (warning shots essay).
+Sloppy or hyper-partisan grassroots tone can wedge AI safety and net-harm despite good intentions (scouts vs soldiers).
+Notice-and-comment dockets reward individualized administrative-law arguments; mass copied form letters get grouped and discarded (EA Forum on catastrophe prevention/governance spend).
+Orgs
+Center for AI Safety Action Fund (CAIS Action)/Public First Action
+PauseAI/PauseAI US (US leaders recruiting post)
+Americans for Responsible Innovation (ARI) (careers)
+Encode Justice
+ControlAI
+Stop AI
+
+Examples of job listings and fellowships:
+Policy
+Organisation
+Role
+Description
+Link
+State AI Collaborative
+Senior Advisor, State Engagement
+Works with US state governments on AI policy.
+Link
+Lucid Computing
+Head of US Policy
+Develops US AI policy strategy.
+Link
+Global Shield
+Director, Germany
+Leads catastrophic risk policy work in Germany.
+Link
+Apollo Research
+Founding DC Office, Comms/Policy Staff
+Helps build Apollo's DC presence.
+Link
+AAAS
+Science & Technology Policy Fellow, AI
+Works on science and AI policy in government.
+Link
+Lawfare
+Program Assistant, Artificial Intelligence
+Supports Lawfare's AI programme.
+Link
+Institute for Law & AI
+Executive Assistant, EU Law & Legal Frontiers
+Supports senior AI governance staff.
+Link
+Institute for Law & AI
+Executive Assistant, US Policy
+Supports senior policy staff.
+Link
+
+Technical / Research
+Organisation
+Role
+Description
+Link
+Google DeepMind
+Research Engineer, Responsible Frontier AI Research
+Builds frontier AI safety evaluations.
+Link
+Anthropic
+Engineering Manager, AI Observability
+Leads monitoring work on AI behaviour.
+Link
+Safe AI Forum
+Senior Researcher, Misuse Risks
+Researches AI misuse risks.
+Link
+AVERI Institute
+Research Scientist, AI Verification & Evaluation
+Works on model evaluations and audits.
+Link
+Aello / Alice
+Senior Researcher, Alignment
+Works on alignment and evaluations.
+Link
+LLNL
+Postdoctoral Researcher, Explainable AI
+Researches model interpretability.
+Link
+FutureTech, MIT
+Technical Associate, Computer Science/Economics
+Studies computing and AI trends.
+Link
+
+Ops / Generalist
+Organisation
+Role
+Description
+Link
+Tarbell Center
+Head of Partnerships, Fellowship
+Builds relationships with journalists and newsrooms.
+Link
+SASH
+Head of Operations
+Runs operations at an AI safety org.
+Link
+Generality Labs
+Head of Strategy & Operations
+Broad strategy and operations role.
+Link
+PRISM
+Head of Operations
+Runs HR, finance, systems and compliance.
+Link
+LISA
+Senior Operations Manager
+Solves operational problems across the org.
+Link
+LISA
+Head of People
+Builds the people function.
+Link
+Institute for AI Policy and Strategy
+Operations Coordinator
+Coordinates research and operations.
+Link
+Intelligence Security Labs
+Technical Recruiter
+Recruits technical staff.
+Link
+LawZero
+Senior Recruiter
+Runs recruitment for an AI safety org.
+Link
+Epoch AI
+Recruiter
+Recruits research and technical staff.
+Link
+CSET
+People Operations Associate
+Supports people operations.
+Link
+Anthropic
+Engineering Manager, AI Observability
+Manages a technical safety team.
+Link
+BlueDot Impact
+Program Lead, AGI Strategy
+Runs training on AGI strategy.
+Link
+BlueDot Impact
+Program Lead, Frontier AI Governance
+Runs AI governance training.
+Link
+
+
+
+
+
+
+
+
+
+Comms, Arts, Legal & Other
+Organisation
+Role
+Description
+Link
+Epoch AI
+Writer & Editor
+Writes about AI research and trends.
+Link
+SAIN
+Photographer
+Photographs AI safety events and people.
+Link
+Tarbell Center
+Tarbell Fellowship
+Supports journalists covering advanced AI.
+Link
+Generator Residency
+Generator Residency
+Residency for work on AI and society.
+Link
+Epoch AI
+Social Video Producer
+Makes short videos about AI.
+Link
+Epoch AI
+Senior Product Designer
+Designs tools for AI research and data.
+Link
+Palisade Research
+Video Editor
+Makes videos for an AI safety research group.
+Link
+Americans for Responsible Innovation
+Communications Manager
+Communications work on AI policy.
+Link
+Cedar Research
+Communications & Outreach Lead
+Communications and outreach for research.
+Link
+Constellation Research
+Cook
+Supports a research community.
+Link
+Chatham House
+Asfari Foundation Leadership Masterclass
+Leadership programme for policy professionals.
+Link
+LASST
+Head of Litigation
+Develops litigation strategy around AI and bio risks.
+Link
+LASST
+Counsel
+Legal work on AI and bio risks.
+Link
+RAND
+Associate General Counsel, AI, Biosecurity & Emerging Technologies
+Legal work on emerging technology risks.
+Link
+Safe AI Forum
+General Counsel
+Leads legal work.
+Link
+
+
+
+
+3. Identify the deliverable package
+Outputs:
+Main 3 min, fast-paced YouTube video
+Companion written guide / resource hub
+Data viz/interactive career tree as part of guide
+In description or links to other additional website 
+Short-form videos / clips (divided by pathway)
+clips should make sense without requiring the audience to have watched the full video
+snipped out from main video 
+
+Example videos for format inspo: 
+ROADTRIP NATION “5 jobs series”
+https://www.youtube.com/watch?v=NGXWCbXimxQ
+https://sbspathways.umass.edu/videos/5-jobs-for-people-who-love-the-ocean-roadtrip-nation/
+Hannah Zhang career titkoks:
+https://www.tiktok.com/@itshannahzhang/video/7640888750083542285?lang=en&q=5%20jobs%20in%20&t=1790221973412
+AI Safety/career interactives:
+https://www.aistalentpipelines.org/
+https://intelligence.mts.now/atlas
+Video style/tone
+https://www.youtube.com/watch?v=e3fz3dqhN44
+
+
+Scope and length of each output:
+Main YouTube video: ~3 min
+Companion guide/resource hub: ~1,500–2,500 words
+Interactive career tree: Embedded in guide; concise, clickable pathway map
+Short-form clips: ~30–60 sec each, one per pathway or topic
+
+4. Enumerate points and details to mention
+Claims, explanations, examples, evidence, caveats, and visual ideas:
+General points
+General points
+1. AI safety needs many kinds of people, not just researchers
+Roles include research, engineering, policy, law, security, operations, management, communications, journalism, grantmaking, fieldbuilding, economics, biosecurity, design, founding organizations, and more.
+AI safety organizations also hire people, run events, raise money, and share their ideas, and none of that requires linear algebra (80,000 Hours).
+An analysis of 3,654 job postings found that leadership roles most need management plus ops, strategy, or policy skills, and that infosec is a key skill at AI labs (EA Forum).
+Caveat: research is still the most common need, and pipelines into non-research roles are less developed.
+2. Lots of people care, and the field is growing fast
+The field has grown about 3000% in the last eight years (80,000 Hours).
+BlueDot has trained over 10,000 professionals since 2022 (BlueDot).
+Caveat: the field is still small relative to the problem, which also means there's lots of room to grow.
+3. It's a well-funded field
+Some philanthropists hope to deploy tens of billions of dollars on these risks in the coming years (80,000 Hours).
+Funders need people to spend it. Millions are available for people who can launch AI safety nonprofits, and the hard part is finding founders (80,000 Hours podcast).
+This supports well-paid roles. Horizon fellows earn $78K to $190K+ (Horizon).
+Caveat: pay varies a lot by role, nonprofits usually pay less than labs, and much of the funding comes from a few large funders.
+4. There are many ways to learn, often free
+BlueDot's courses are free. The 2-hour intro has no application, and longer courses require one.
+BlueDot courses were the most-mentioned upskilling step in a survey of 38 AI safety leaders (80,000 Hours).
+Other resources: the free ARENA curriculum, podcasts, reading groups, and SPAR's reading list.
+Caveat: courses build knowledge, but they don't get you hired alone. Pair them with projects and networking.
+5. You can start fast, and doing the work matters more than credentials
+An 80,000 Hours advisor thinks many driven people can pivot within three months (80,000 Hours).
+Example: Luca noticed a gap, built a career platform on his own, and was hired by 80,000 Hours (same source).
+Caveat: three months is a best case. Senior and specialized roles often take longer.
+6. Be persistent
+Rejection is normal. Many research fellowships accept under 3% of applicants (Fieldbuilders).
+Many people who felt they had nothing to contribute landed AI safety jobs a few months later (80,000 Hours).
+Keep building context, joining groups, and working on projects. Public work gets you noticed.
+Caveat: demand is uneven. Entry-level research is crowded, while ops, management, security, and founding have bigger gaps.
+
+Actions
+Note: a full list of programs, fellowships, grants, and resources for each category will go in the companion guide.
+Everyone: start here
+Take BlueDot's free 2-hour "The Future of AI" course.
+Get free career advice from 80,000 Hours, starting with their AI advisor, then a one-on-one call.
+Build a reading habit of about 30 minutes a day, using SPAR's reading list.
+Browse the 80,000 Hours job board to see what roles exist.
+University students
+Do right now
+Join your university's AI safety group, or start one. It's one of the fastest ways to build experience, and it takes little background.
+Apply to Pathfinder for mentorship and funding, including $500 in starter funding for accepted groups (Pathfinder).
+Use the AI Safety Seeding Initiative to get a new group started.
+Apply to SPAR for your first research project. Many majors count.
+Reach out to us for connections.
+Build a career
+Organizing leads somewhere. Recent Pathfinder participants got roles at Coefficient Giving, UK AISI, and Redwood (same source).
+Use your major as your angle instead of switching.
+Caveat: pair organizing with a project or research experience.
+Technical people
+Do right now
+Work through the free ARENA curriculum online.
+Replicate a small paper or contribute to an open-source safety tool.
+Build a career
+A common ladder: SPAR → ARENA → MATS or Anthropic Fellows → research role.
+Anthropic Fellows doesn't require a PhD, prior ML experience, or papers, and over 40% of the first cohort joined Anthropic full-time (Anthropic).
+Labs aren't the only option. Evaluators, government institutes, academia, nonprofits, and security work all need technical people.
+Caveat: entry-level research is crowded, so stand out with real work.
+Caveat: whether working at labs speeds up capabilities is a genuine debate.
+Visual idea: a subway map with the ladder as the main line and branches to labs, evaluators, government, and academia.
+Policy and governance people
+Do right now
+Apply to BlueDot's free Frontier AI Governance course. No technical background is needed.
+Read one lab's safety policy and one piece of AI legislation, like the EU AI Act.
+Build a career
+The Horizon Fellowship places fellows in government and think tanks. Eligibility can come from a paper, internship, work project, or coursework, not only a PhD (Horizon FAQ).
+Governance isn't only in DC. UK AISI, the EU AI Office, and national institutes also hire.
+Caveat: Horizon placements require living in the DC area.
+Visual idea: a world map highlighting where AI policy is being made.
+Non-technical mid-career professionals
+Do right now
+Apply for Successif's free advising for mid-career transitions.
+Apply to BlueDot's AGI Strategy course, built for domain experts redirecting their skills.
+Build a career
+Your experience is what's missing. The field has far more junior than senior talent (80,000 Hours).
+Infosec, comms, economics, management, and design are all needed.
+Start doing the work before you're hired, through a side project or volunteering.
+Caveat: experience alone isn't enough, since applications test AI safety knowledge. Build context first.
+Visual idea: split screen of someone's current job next to the equivalent AI safety role.
+Operations
+Do right now
+Volunteer to help run a local AI safety group, event, or course.
+Read 80,000 Hours' guide to scaling AI safety organizations.
+Build a career
+Senior ops is a major gap. Organizations struggle most to fill COO, chief of staff, and director of operations roles (80,000 Hours).
+The Generator Residency is built for generalists and helps residents land full-time roles.
+Real listings to feature: SASH Head of Ops, Tarbell Head of Partnerships.
+Caveat: many organizations are small, so senior hires may also do admin work.
+Visual idea: an org chart with research boxes filled in and ops boxes blinking empty.
+Concerned general public
+Do right now
+Write a personal message to your representatives. Form emails are far less effective than personal messages (USA Today via PressReader).
+Take BlueDot's free 2-hour intro and share what you learn.
+Donate through a fund where experts choose the projects, like the Long-Term Future Fund.
+Talk about it with friends and family.
+Grow your involvement
+Join a local group or reading group.
+Volunteer your skills, like design, events, writing, or translation.
+Caveat: the survey data is US-specific, so adapt it for other countries.
+Visual idea: someone typing a short personal message next to a stack of ignored form emails.
+Founders and entrepreneurs
+Do right now
+Browse idea lists. Coefficient Giving has dozens of organizations it wants someone to start (80,000 Hours podcast).
+Contact Catalyze if you're interested in launching something.
+Build a career
+Catalyze has incubated about 15 organizations, and most have raised six or seven figures (Catalyze).
+Caveat: this path is high-risk, and most new organizations won't be big successes.
+Visual idea: a list of "organizations someone should start" with empty founder slots.
+Journalists, writers, and content creators
+Do right now
+Start covering AI risk in your existing work.
+Apply to a BlueDot course to build depth.
+Build a career
+The Tarbell Fellowship offers paid newsroom placements covering AI, at outlets like The Guardian, Bloomberg, and Time (Tarbell).
+AI safety organizations hire comms staff, like Epoch's Writer & Editor role.
+Visual idea: AI headlines shifting from product hype to deeper coverage of risk and governance.
+Academics outside CS
+Do right now
+Find the AI angle in your field, like economics of AI, biosecurity, AI law, or philosophy of alignment.
+Mentor or join a SPAR project.
+Build a career
+You don't have to leave your discipline. Schmidt Sciences' AI2050 funds AI safety work within existing fields.
+Caveat: big academic grants run in yearly cycles, so watch for the next rounds.
+Visual idea: a Venn diagram of each discipline overlapping with AI safety.
+
+Original notes
+Lots of 
+Technical Research- there are hella fellowships to get started, the classic but maybe not at impactful
+SPAR project → ARENA → MATS → research role
+ARENA alternatives
+Iliad intensive, etc.
+Research roles
+At companies – many takes on this, more well resourced in direct access to the models, lots of foundational work coming out of Anthropic specifically
+Third party orgs
+
+
+Policy - they need technical understanding
+Horizon, GovAI, etc
+Advocacy
+politics
+
+Operations / Generalist - big bottle neck, if you have managed before, etc.
+Actual orgs
+Hard ops ppl!
+
+Students
+Join (or start) an AI Safety organization at your university!
+Pathfinder, etc.
+Reach out to us, there are many people who would love to help you with this process that we can connect you with!
+In AI adjacent field you can try to work on it at interaction
+Econ, bio, physics (nuclear), politics, etc. 
+
+Mid Career - LOVE managing experience, need older ppl in the field lowkey (PLEASE work for this)
+	Types of mid-career professionals with experience that is particularly valuable:
+Information security
+Communications
+Economics
+Policy
+Leadership and Management
+Artists
+	Additional questions:
+Does AI safety have a branding problem? What can the current movement learn from publications like Whole Earth Catalog, a publication that approached the paralyzing doom of its era (late 1960s–early 1970s) and translated it into inspiring, effective communications that emphasized ambition, education, and personal agency? From the Whole Earth Catalog’s perspective: tools > apocalypse.
+In general, how can gig RLHF workers be welcomed into AI safety? As model evaluation moves from RLHF to RLCD, how will this impact the expert workforce working on RLHF? Can these experts be aggressively up-skilled to perform RLCD? Will we abandon this existing workforce? What are the consequences?
+Daily Life
+Call senator
+Keep up with AI news 
+Suggestions of who to follow
+Resources list
+—
+There are lots of people who really care about ai safety and care so much to direct their money towards it. This makes it a well funded field 
+Lots of things u can do to learn more and build context(readings, courses…)
+
+
+5. Narrow and prioritize the points
+Calvin’s thoughts on general framing and video structure
+Successful career listicle video framings (click to expand)
+Length: ~8-20 minutes
+thumbnail/title make you wonder “what on earth are they doing?”
+
+A generally successful thumbnail format for listicles is “a picture of a bunch of weird things in this listicle to intrigue you” - as with this “Paint Explainer” format which has been done to death.
+
+Some promise a systemized ranking or personalized flowchart, appealing to people lost and confused in the job market
+
+
+Promise a tantalizing, intriguingly specific “golden rule” or easy ticket
+
+Calvin’s proposed framing
+“8 unexpected career paths to fight the AI apocalypse” type title/general framing
+We should settle on thumbnail and title sketch before the rest of the video
+Thumbnail could either be chart overview like crystal or “overview of the widest list items” like paint explainer does
+Earlier sections main points excellent
+People seem to like systemizations of decisions and chart videos (see Crystal and channels like usefulcharts). We could structure our entire video around explaining the AIs career chart and just animate the chart slowly being revealed, like UsefulCharts does, with some B-roll; very easy to claude
+Start with hook/teaser (“how can influencer prevent ai doomsday” or whatever)
+If the paths we want to cover in rough order of interestingness, we should do 2, 6, 5, 4, 3, 1
+E.g. start with everyday activism, put influencer at the very end
+Put general context-building e.g. read 80k, bluedot strategy at the beginning of the flowchart, and more specific stuff branching off
+Tease unreveaed parts of the chart
+
+Weave in other pts (rejection is normal etc.) throughout video
+Open questions
+Omit: mech interp pipeline?	
+Make it shorter than other sections, but still cover briefly
+Emphasize technical governance, control, etc.
+payment/compensation
+Elias: we should mention compensation
+Throw up job postings with good salary ranges
+Maybe stick to most established paths because programs might change and render video outdated
+
+Open questions from meeting
+How to make sharable/commentable
+Embed “general points” throughout video where it makes most sense
+For each major branch
+Open with teaser/hook; we could fit the caveats/myth-dispelling in here(“influencer could be most impactful job, here’s how to get there”, or “you don’t always need a graduate degree to become safety researcher, here’s how”
+Explain why it’s impactful (1-3 sentence)
+Explain main career path (2-4 sentences)
+Popup screenshot of job posting?
+Link to or mention specific job boards
+Maybe mention concrete example of someone doing this work (not too cracked)
+Segue into next branch
+
+Next steps
+Make 2-3 possible simple sketches of thumbnail/title (Calvin)
+Make rough copy of interactive flowchart (Elias)
+Write script
+Everyone: start here (Marian)
+University students
+Mid career 
+Technical people (Marian)
+Policy and governance people (Academics outside CS: law, econ) (Elias)
+Non-technical mid-career professionals, Operations, Founders and entrepreneurs (Marian)
+Concerned general public, Everyday life (Calvin)
+Journalists, writers, and content creators (Calvin)
+
+Essential points, in order:
+
+Supporting details:
+
+Optional or omitted material:
+
+6. Draft a main doc
+Comprehensive draft:
+
+Sources, reasoning, examples, and caveats:
+
+7. Derive outputs from the main doc
+Video script:
+
+Storyboard:
+
+Write-up:
+
+Demo excerpts:
+
+Interactive elements to build with Claude:
+
+8. Review before production or recording
+Self-review findings:
+
+Blog Checker findings:
+
+Diagram and demo checks:
+
+Revisions:
+
+9. Produce or record, then publish
+Final deliverables / recording:
+
+Publication channels and links:
+
+After publication
+Reach:
+
+Feedback, reuse, and usefulness:
+
+Lessons for future content:
+
+
+

@@ -1,0 +1,39 @@
+{
+  "name": "aisss-motion",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI Safety Said Simply motion system: brand tokens, paper look, components and the master map for every animated shot.",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "check": "node scripts/check-style.mjs && tsc --noEmit",
+    "stills": "node scripts/render-stills.mjs",
+    "render": "remotion render",
+    "textures": "node scripts/render-stills.mjs --textures",
+    "docs:stills": "node scripts/render-stills.mjs --docs",
+    "sync:careermap": "node scripts/sync-careermap.mjs"
+  },
+  "dependencies": {
+    "@fontsource/libre-baskerville": "5.2.8",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/fonts": "4.0.540",
+    "@remotion/layout-utils": "^4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@remotion/transitions": "4.0.540",
+    "d3-geo": "3.1.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540",
+    "topojson-client": "3.1.0",
+    "us-atlas": "3.0.1",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.1",
+    "@types/geojson": "7946.0.16",
+    "@types/react": "19.3.0",
+    "@types/topojson-client": "3.1.5",
+    "typescript": "5.9.3"
+  }
+}
