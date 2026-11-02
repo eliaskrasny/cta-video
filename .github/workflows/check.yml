@@ -1,0 +1,27 @@
+# Runs the brand/motion rule checker and TypeScript on every push and pull request,
+# so a change that breaks a rule shows a red X before anyone merges it.
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: motion
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: motion/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      # The video's copy of the career map must match the career map itself.
+      - name: Career map copy is up to date
+        run: |
+          npm run sync:careermap
+          git diff --exit-code -- src/careermap || { echo "The career map changed but the video's copy wasn't re-synced. Run 'npm run sync:careermap' in motion/ and commit."; exit 1; }

@@ -1,0 +1,11 @@
+node_modules/
+out/
+.remotion/
+*.log
+.DS_Store
+Thumbs.db
+# Big media lives in the shared OneDrive folder, not git
+*.wav
+*.mov
+*.aif
+*.aiff
