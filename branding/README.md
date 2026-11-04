@@ -38,4 +38,4 @@ cd branding/guide
 python3 build_guide.py     # needs Python 3, PyMuPDF (pip install pymupdf) and Chrome or Edge installed
 ```
 
-The build writes `../AISSS-Visual-Identity.pdf` and generates `guide.html` and `preview/` (both git-ignored). Agents read the same rules as a skill: `.claude/skills/aisss-visual-identity/`. Keep the three in step when a brand rule changes.
+The build writes `../AISSS-Visual-Identity.pdf` and generates `guide.html` and `preview/` (both git-ignored). Agents read the same rules as a skill: `.claude/skills/aisss-visual-identity/` (SKILL.md, `reference/` pages that follow the PDF, `tokens.json`). After changing a colour in `build_guide.py`, run `python3 export_skill_tokens.py` in `guide/` to refresh `tokens.json`, and update the matching reference page. Keep the PDF, the skill and `motion/src/brand/tokens.ts` in step when a brand rule changes.

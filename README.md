@@ -31,7 +31,7 @@ Claude Code finds `.claude/skills/` by itself, and both Claude Code and Codex re
 | 3 | [`motion/src/collage/tape/README.md`](motion/src/collage/tape/README.md) | Tape (mostly transparent, almost no texture) |
 | 4 | [`motion/src/collage/pen/README.md`](motion/src/collage/pen/README.md) | Pen underlines, rings, any pen stroke, connector ink |
 | 5 | [`motion/src/collage/squiggle/README.md`](motion/src/collage/squiggle/README.md) | Wobbling outlines. **Off by default**, very sparing accent |
-| 6 | [`.claude/skills/aisss-visual-identity/SKILL.md`](.claude/skills/aisss-visual-identity/SKILL.md) | Brand: colour, type (Inter + Baskerville), logo rules |
+| 6 | [`.claude/skills/aisss-visual-identity/SKILL.md`](.claude/skills/aisss-visual-identity/SKILL.md) | Brand, adapted page by page from the PDF: colour and approved contrast pairs, type (Inter + Baskerville), logo, loops, in-use examples; plus `tokens.json` and a contrast checker |
 | 7 | [`motion/src/collage-scenes/org-chart/OrgChart.tsx`](motion/src/collage-scenes/org-chart/OrgChart.tsx) | A complete worked scene (composition `C01-org-chart`) to copy |
 
 Read only the package READMEs you use, but read each of those in full.

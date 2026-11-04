@@ -12,7 +12,7 @@ For **any** animation task, before writing code:
    - `motion/src/collage/tape/README.md`
    - `motion/src/collage/pen/README.md`
    - `motion/src/collage/squiggle/README.md`
-3. For brand colour, type and logo questions read `.claude/skills/aisss-visual-identity/SKILL.md`.
+3. For brand colour, type and logo questions read `.claude/skills/aisss-visual-identity/SKILL.md`, then the page in its `reference/` folder for what you're making. It is the Visual Identity PDF in agent form; `scripts/contrast.py` checks text/background pairs.
 4. Copy `motion/src/collage-scenes/org-chart/` as the starting point for a new scene.
 
 Defaults you must not forget: use the real texture scans (`motion/public/collage/textures/`) and keep them faint on text cards and tape; cut-outs are baked with `tear` 0.5 (stay 0.3–0.6); signs and notes have straight edges; pen strokes come from the `pen` package; no wobble unless a rare, deliberate `Squiggle`; 12 fps.
