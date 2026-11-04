@@ -24,7 +24,7 @@ If a case isn't covered here, take the quieter choice (PDF p.2).
 
 **Colour.** Strand `#C64D0A` does one job per frame: one word, one rule, one loop, one pin or one arrow. Signals (Indigo or Moss) are for diagrams, one per figure. Live `#FF8A3D` is a big fill or the highlighter, with Ink type.
 
-**Type.** Baskerville Bold for titles (display 112, h1 88, h2 60). Baskerville Regular h3 46, caption 32. Baskerville Italic only for quotes, 56. Helvetica body 40, small 30, source 24. Labels are Helvetica Bold capitals 28 px, tracked 0.14 em. Left aligned. Body lines ≤ 42 characters, ≤ 3 lines. Hold text for 1 s + 3 words/s (minimum 2 s).
+**Type.** Baskerville Bold for titles (display 112, h1 88, h2 60). Baskerville Regular h3 46, caption 32. Baskerville Italic only for quotes, 56. Inter body 40, small 30, source 24. Labels are Inter Bold capitals 28 px, tracked 0.14 em. Left aligned. Body lines ≤ 42 characters, ≤ 3 lines. Hold text for 1 s + 3 words/s (minimum 2 s).
 
 **Boil.** Shapes redraw every 3 frames (8 a second), cycling 3 drawings, ±3 px on panels. Text, the logo, photos and the Strand loop never boil.
 
@@ -166,12 +166,12 @@ Diagrams only (maps, charts, timelines, node diagrams). **One signal colour per 
 
 | Role | Face in the brand (PDF p.10) | File we render with | Why |
 |---|---|---|---|
-| Sans | Helvetica Neue | TeX Gyre Heros (Regular, Bold), `public/fonts` | The brand's named free fallback. Bundled so every machine renders the same letters. |
+| Sans | Inter | Inter (Regular, Medium, SemiBold, Bold), `public/fonts` | The brand's text face. Open source (SIL OFL), so it is bundled and every machine renders the same letters. |
 | Serif | Baskerville | Libre Baskerville (Regular, Bold, Italic), `public/fonts` | The brand PDF's own stand-in. |
 
-If the team licenses Helvetica Neue and Baskerville, swap the files in `src/brand/fonts.ts` and nothing else changes. **Never** rely on system fonts: a Mac has Helvetica Neue and a PC has Arial, and the shots would stop matching.
+If the team licenses Baskerville, swap the serif files in `src/brand/fonts.ts` and nothing else changes. **Never** rely on system fonts: a Mac and a PC would draw different letters and the shots would stop matching.
 
-Only weights 400 and 700 exist in the system. Helvetica is never italic; no sans italic is even loaded (PDF p.10). Redaction 35 is for the website hero only and isn't used in video.
+Roles use weights 400 and 700 (Medium and SemiBold are loaded too, for the paper-collage style). Inter stays roman; no sans italic is loaded (PDF p.10). Redaction 35 is for the website hero only and isn't used in video.
 
 ### 4.2 Type scale at 1080p
 
@@ -663,7 +663,7 @@ posterizeTime(8);
 (Math.floor(time * 8) % 3) * 120;
 ```
 
-Text layers and the logo never get the effect. Shadows are a duplicated shape layer filled Wheat, offset 6 or 12 px down-right, with no blur. Fonts: TeX Gyre Heros and Libre Baskerville from `public/fonts/`. Render to ProRes 422 HQ, and get a review against this guide before the shot goes in.
+Text layers and the logo never get the effect. Shadows are a duplicated shape layer filled Wheat, offset 6 or 12 px down-right, with no blur. Fonts: Inter and Libre Baskerville from `public/fonts/`. Render to ProRes 422 HQ, and get a review against this guide before the shot goes in.
 
 ### 15.4 Measuring a reference clip
 
@@ -686,7 +686,7 @@ Measure: how many frames each drawing holds (boil rate), how far an edge moves b
 | Entrance durations and easing | EST |
 | Type sizes | EST; check on a phone-sized YouTube player |
 | Strand loop path | Approximation; replace with official `strand-drift.svg` |
-| Licensed Helvetica Neue / Baskerville | Using free fallbacks; swap in `fonts.ts` if licensed |
+| Licensed Baskerville | Using Libre Baskerville; swap in `fonts.ts` if licensed |
 | Vertical (9:16) spec for shorts | Not started |
 | Sound | Starting points only |
 | Burned-in caption style | With the vertical spec |

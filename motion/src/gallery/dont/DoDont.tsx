@@ -77,8 +77,8 @@ const alignment: React.FC = () => (
 
 const type: React.FC = () => (
   <Pair title="Two faces, used one way"
-    doNote="Baskerville Bold for titles, Helvetica for words, small caps for labels."
-    dontNote="Helvetica in italic, a title in Helvetica, labels in lower case, all in one frame."
+    doNote="Baskerville Bold for titles, Inter for words, small caps for labels."
+    dontNote="Inter in italic, a title in Inter, labels in lower case, all in one frame."
     good={<Ground><div style={{ position: "absolute", left: colX(0), top: 300 }}><Text role="label" enter="cut">03 · Operations</Text><Text role="h1" enter="cut" style={{ marginTop: 24 }}>{"The people who\nrun things"}</Text></div></Ground>}
     bad={<Ground><div style={{ position: "absolute", left: colX(0), top: 300, color: COLOR.ink }}><div style={{ fontFamily: FAMILY.sans, fontSize: 30 }}>03 - operations</div><div style={{ fontFamily: FAMILY.sans, fontStyle: "italic", fontWeight: 700, fontSize: 88, marginTop: 24 }}>The People Who<br />Run Things</div></div></Ground>} />
 );

@@ -8,7 +8,9 @@ const src = path.join(root, "src");
 
 // Files that are allowed to break rules: the tokens themselves, and the do/don't board, which breaks them on purpose.
 // The career map's data and logos are copied in from the flowchart by `npm run sync:careermap`.
-const EXEMPT = [/^src\/brand\/tokens\.ts$/, /^src\/gallery\/dont\//, /^src\/careermap\/(careermap-data|logos)\.js$/];
+// The paper-collage kit and its scenes are a separate style with its own rules (real textures, 12 fps, rotation, soft shadows).
+// Those rules live in .claude/skills/paper-cutout-animation/SKILL.md, not in this checker.
+const EXEMPT = [/^src\/collage\//, /^src\/collage-scenes\//, /^src\/brand\/tokens\.ts$/, /^src\/gallery\/dont\//, /^src\/careermap\/(careermap-data|logos)\.js$/];
 
 // [id, pattern, message, files where the pattern IS allowed]
 const RULES = [
@@ -20,7 +22,7 @@ const RULES = [
   ["blend", /mixBlendMode|backgroundBlendMode/, "No blend modes (the brand is flat).", []],
   ["font-size", /fontSize:\s*\d/, "Font size typed by hand. Use <Text role=...> (sizes live in TYPE).", []],
   ["font-family", /fontFamily\s*:/, "Font family set by hand. Use <Text role=...>.", [/^src\/type\//, /^src\/brand\//]],
-  ["italic", /fontStyle:\s*["']italic/, "Italic is only the quote role (Baskerville Italic). Helvetica is never italic.", [/^src\/type\//]],
+  ["italic", /fontStyle:\s*["']italic/, "Italic is only the quote role (Baskerville Italic). Inter is never italic.", [/^src\/type\//]],
   ["radius", /borderRadius:(?!\s*"50%")/, "Corners are square. Only circles (borderRadius: \"50%\") are allowed.", []],
   ["align", /textAlign:\s*["'](center|justify|right)/, "Text is left aligned. Never centre or justify a paragraph.", []],
   ["map", /from\s+["'](d3-geo|topojson-client|world-atlas[^"']*|us-atlas[^"']*)["']/, "Maps come only from <MasterMap>. Don't draw your own.", [/^src\/map\//]],

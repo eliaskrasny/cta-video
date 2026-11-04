@@ -1,0 +1,42 @@
+{
+  "microscope": {
+    "width": 516,
+    "height": 676,
+    "pad": 61,
+    "scale": 2.4,
+    "subjectWidth": 394,
+    "subjectHeight": 554
+  },
+  "gavel": {
+    "width": 554,
+    "height": 378,
+    "pad": 61,
+    "scale": 2.4,
+    "subjectWidth": 432,
+    "subjectHeight": 256
+  },
+  "clipboard": {
+    "width": 405,
+    "height": 578,
+    "pad": 61,
+    "scale": 2.4,
+    "subjectWidth": 283,
+    "subjectHeight": 456
+  },
+  "microphone": {
+    "width": 470,
+    "height": 510,
+    "pad": 61,
+    "scale": 2.4,
+    "subjectWidth": 348,
+    "subjectHeight": 388
+  },
+  "megaphone": {
+    "width": 518,
+    "height": 486,
+    "pad": 61,
+    "scale": 2.4,
+    "subjectWidth": 396,
+    "subjectHeight": 364
+  }
+}

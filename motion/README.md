@@ -1,6 +1,9 @@
 # AISSS motion
 
-The animation system for the AI Safety Said Simply explainer video: brand tokens, the paper-cutout look, every on-screen component, the master map, and the shots themselves, all as code in [Remotion](https://www.remotion.dev).
+The animation project for the AI Safety Said Simply explainer video, all as code in [Remotion](https://www.remotion.dev). It holds two things:
+
+- **The paper-collage kit** (`src/collage/`): photocopied cut-outs and paper signs on textured graph paper, animated at 12 fps. This is the default for new animation. Start with the repo's [README: Get an agent up to speed](../README.md#get-an-agent-up-to-speed), then [`src/collage/README.md`](src/collage/README.md) and `../.claude/skills/paper-cutout-animation/SKILL.md`.
+- **The original flat AISSS system**: brand tokens, flat paper look, components, the master map and the shot list (rules below and in `AGENTS.md`).
 
 - **The rules:** [docs/STYLE-GUIDE.md](docs/STYLE-GUIDE.md) (start with the one-page cheat sheet).
 - **For coding agents:** [AGENTS.md](AGENTS.md) (Claude Code reads it through `CLAUDE.md`, and Codex reads it directly).
@@ -37,10 +40,15 @@ Don't work inside the OneDrive folder: syncing `node_modules` and `.git` is slow
 ## What's where
 
 ```
+src/collage/              paper-collage kit (+ tape/, pen/, squiggle/ packages, each with a README)
+src/collage-scenes/       scenes built with the kit (C01-org-chart)
+tools/collage/            Python: prep_textures.py (scans -> maps), bake_cutout.py (photo -> torn sticker)
+assets/photos/            source photos for cut-outs; assets/textures/ = raw scans (git-ignored)
+public/collage/           processed textures, baked cut-outs, pin
 AGENTS.md / CLAUDE.md     rules for coding agents
 docs/STYLE-GUIDE.md       the full guide, with stills in docs/stills/
 src/brand/tokens.ts       every colour, size, timing, easing and boil value
-src/brand/fonts.ts        the bundled fonts (TeX Gyre Heros, Libre Baskerville)
+src/brand/fonts.ts        the bundled fonts (Inter, Libre Baskerville)
 src/paper/                Ground (+ grain), Cutout, Boil, scissor-cut edges
 src/type/Text.tsx         the type system
 src/motion/               entrances, easing, camera, the paper-push transition
@@ -62,7 +70,8 @@ Voice-over, music, reference clips, original photos and final renders live in th
 
 ## Licences
 
-- TeX Gyre Heros: GUST Font License (`public/fonts/GUST-FONT-LICENSE.txt`).
+- Inter: SIL Open Font License (`public/fonts/INTER-OFL.txt`).
+- TeX Gyre Heros (legacy, no longer used): GUST Font License (`public/fonts/GUST-FONT-LICENSE.txt`).
 - Libre Baskerville: SIL Open Font License (`public/fonts/LIBRE-BASKERVILLE-OFL.txt`).
 - Yarn mark: Google Noto Emoji U+1F9F6, SIL Open Font License (`public/brand/NOTO-OFL.txt`).
 - Map data: Natural Earth via world-atlas, US Census via us-atlas; public domain.
