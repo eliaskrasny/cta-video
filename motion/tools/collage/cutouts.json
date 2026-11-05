@@ -1,0 +1,7 @@
+{
+  "microscope": { "file": "microscope.png", "worldWidth": 164, "seed": 11, "border": 7 },
+  "gavel": { "file": "gavel.png", "worldWidth": 180, "seed": 23, "border": 7 },
+  "clipboard": { "file": "clipboard.png", "worldWidth": 118, "seed": 5, "border": 7 },
+  "microphone": { "file": "microphone.png", "worldWidth": 145, "seed": 31, "border": 7 },
+  "megaphone": { "file": "megaphone.png", "worldWidth": 165, "seed": 42, "border": 7 }
+}

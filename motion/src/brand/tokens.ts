@@ -70,7 +70,7 @@ export type SignalName = (typeof SIGNALS)[number];
 
 /* ---------- type ---------- */
 // Font files are bundled in public/fonts so every machine renders the same letters (see brand/fonts.ts).
-// Sans = TeX Gyre Heros (the brand's named Helvetica fallback). Serif = Libre Baskerville (the brand's Baskerville stand-in). [PDF p.10]
+// Sans = Inter (the brand text face). Serif = Libre Baskerville (the brand's Baskerville stand-in). [PDF p.10]
 export type TypeSpec = {
   family: "sans" | "serif";
   weight: 400 | 700;
@@ -84,7 +84,7 @@ export type TypeSpec = {
 };
 
 export const TYPE = {
-  /** Small-caps label: kickers, chapter numbers, axis names. Helvetica Bold, tracked. [PDF p.11] sizes [EST] */
+  /** Small-caps label: kickers, chapter numbers, axis names. Inter Bold, tracked. [PDF p.11] sizes [EST] */
   label: { family: "sans", weight: 700, italic: false, size: 28, lineHeight: 1.2, tracking: 0.14, upper: true, maxChars: 40, maxLines: 1 },
   /** Title-card title. Baskerville Bold. [PDF p.11] */
   display: { family: "serif", weight: 700, italic: false, size: 112, lineHeight: 1.05, tracking: -0.01, upper: false, maxChars: 24, maxLines: 3 },
@@ -94,9 +94,9 @@ export const TYPE = {
   h2: { family: "serif", weight: 700, italic: false, size: 60, lineHeight: 1.12, tracking: 0, upper: false, maxChars: 34, maxLines: 2 },
   /** Heading 3: Baskerville Regular. Sub-heads, stat labels. */
   h3: { family: "serif", weight: 400, italic: false, size: 46, lineHeight: 1.2, tracking: 0, upper: false, maxChars: 40, maxLines: 2 },
-  /** Body: Helvetica Regular. On-screen sentences. Shorter lines than print: 42 chars, not 60 to 75 [DECIDED for video]. */
+  /** Body: Inter Regular. On-screen sentences. Shorter lines than print: 42 chars, not 60 to 75 [DECIDED for video]. */
   body: { family: "sans", weight: 400, italic: false, size: 40, lineHeight: 1.3, tracking: 0, upper: false, maxChars: 42, maxLines: 3 },
-  /** Small: Helvetica Regular. Text inside documents, timeline events, chart notes. Never the main message. */
+  /** Small: Inter Regular. Text inside documents, timeline events, chart notes. Never the main message. */
   small: { family: "sans", weight: 400, italic: false, size: 30, lineHeight: 1.3, tracking: 0, upper: false, maxChars: 48, maxLines: 4 },
   /** Quote: Baskerville Italic, the only italic in the system. [PDF p.10] */
   quote: { family: "serif", weight: 400, italic: true, size: 56, lineHeight: 1.25, tracking: 0, upper: false, maxChars: 34, maxLines: 4 },
@@ -104,13 +104,13 @@ export const TYPE = {
   caption: { family: "serif", weight: 400, italic: false, size: 32, lineHeight: 1.3, tracking: 0, upper: false, maxChars: 56, maxLines: 2 },
   /** Stat: the big number in a stat reveal. Baskerville Bold. */
   stat: { family: "serif", weight: 700, italic: false, size: 240, lineHeight: 1, tracking: -0.02, upper: false, maxChars: 8, maxLines: 1 },
-  /** Source citation: Helvetica Regular, Bark, bottom-left of the frame. Smallest text allowed. */
+  /** Source citation: Inter Regular, Bark, bottom-left of the frame. Smallest text allowed. */
   source: { family: "sans", weight: 400, italic: false, size: 24, lineHeight: 1.3, tracking: 0, upper: false, maxChars: 90, maxLines: 2 },
-  /** Map city names. Helvetica Regular on a Warm Paper plate. */
+  /** Map city names. Inter Regular on a Warm Paper plate. */
   mapCity: { family: "sans", weight: 400, italic: false, size: 28, lineHeight: 1.1, tracking: 0, upper: false, maxChars: 24, maxLines: 1 },
-  /** Map country / region names. Helvetica Bold tracked capitals, Bark. */
+  /** Map country / region names. Inter Bold tracked capitals, Bark. */
   mapRegion: { family: "sans", weight: 700, italic: false, size: 24, lineHeight: 1.1, tracking: 0.16, upper: true, maxChars: 24, maxLines: 2 },
-  /** Numbers on charts and timelines. Helvetica Bold. */
+  /** Numbers on charts and timelines. Inter Bold. */
   figure: { family: "sans", weight: 700, italic: false, size: 34, lineHeight: 1.1, tracking: 0, upper: false, maxChars: 12, maxLines: 1 },
 } as const satisfies Record<string, TypeSpec>;
 export type TypeRole = keyof typeof TYPE;

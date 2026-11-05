@@ -1,5 +1,7 @@
 # AGENTS.md: rules for coding agents working on AISSS animations
 
+> **Scope.** This file governs the **original flat AISSS system**: shots in `src/shots/` built from `src/aisss.ts` (Ground, Cutout, Text, charts, MasterMap, CareerMap). New animation in the **paper-collage style** (`src/collage/`, scenes in `src/collage-scenes/`, 12 fps, real textures) follows `../.claude/skills/paper-cutout-animation/SKILL.md` and the package READMEs it lists instead. Read that skill first for any new animation. Don't mix the two looks in one shot.
+
 You are making animated shots for an AI Safety Said Simply (AISSS) explainer video, in Remotion (React + TypeScript), 1920×1080 at 24 fps. Many people and agents make shots in parallel, so **consistency beats creativity**: build every shot from the shared library and never invent a new look. The full human guide is `docs/STYLE-GUIDE.md`; read the section you need when a rule below isn't enough.
 
 ## Hard rules
